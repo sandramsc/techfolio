@@ -30,10 +30,8 @@ Built a landing page to showcase a musicians art and albums. The concept was ins
 
 | Technology | Description                                                                           |
 | ---------- | ------------------------------------------------------------------------------------- |
-| Project 1: Andy-Mineo-Music   | Built a landing page to showcase a musicians art and albums. The concept was inspired by Apple website.
-
-**Key Takeaway**: understanding how to create a responsive navigation menu, implementing smooth scrolling for anchor links, and handling responsive behavior based on window resizing.                                                                   |
-| Firestore       | scalable database for mobile, web, and server development from Firebase and Google Cloud                                                               |
+| Project 1: Andy-Mineo-Music   | Built a landing page to showcase a musicians art and albums. The concept was inspired by Apple website. **Key Takeaway**: understanding how to create a responsive navigation menu, implementing smooth scrolling for anchor links, and handling responsive behavior based on window resizing.                                             |
+| Firestore       | scalable database for mobile, web, and server development from Firebase and Google Cloud                                                 |
 ## How to use the app
 
 **Step #1** - Clone the project
