@@ -3,7 +3,7 @@
 
 ## Description
 
-This repository showcases the projects that have been instrumental in helping me gain fundamental practical programming knowledge in JavaScript, HTML, CSS, and React. Each of these projects has provided unique insights and learning experiences that have contributed to my growth as a developer since March 2020 - Dec 2022. Below, you'll find a detailed overview of each folder along with links to the project, key takeaways, and skills acquired.
+This repository showcases the projects that have been instrumental in helping me gain fundamental practical programming knowledge in JavaScript, HTML, CSS, and React. Each of these projects has provided unique insights and learning experiences that have contributed to my growth as a developer since March 2020 - Dec 2022. Below, is a detailed overview of each folder along with links to the project, key takeaways, and skills acquired.
 
 ## Table of Contents
 
