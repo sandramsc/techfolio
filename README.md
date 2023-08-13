@@ -15,8 +15,16 @@ This repository showcases the projects that have been instrumental in helping me
 - [Book Collection](#demo)
 - [Bookmarker-app](#screenshots)
 - [CSS-GridLayout-ImageSpan](#technology-stack)
-- [Features](#features)
-- [How to use the app](#how-to-use-the-app)
+- [DeTektVibes](#features)
+- [Earthquake Magnitude Data Map](#how-to-use-the-app)
+- [License](#license)
+- [Andy-Mineo-Music](#application-description)
+- [Berlin-Through Your Eyes](#table-of-contents)
+- [Book Collection](#demo)
+- [Bookmarker-app](#screenshots)
+- [CSS-GridLayout-ImageSpan](#technology-stack)
+- [DeTektVibes](#features)
+- [Earthquake Magnitude Data Map](#how-to-use-the-app)
 - [License](#license)
 
 </details>
@@ -48,8 +56,16 @@ This repository showcases the projects that have been instrumental in helping me
 - **Key Takeaway**: This project reinforces the concept of CSS Grid and its ability to create complex layouts with ease. The grid-template-columns property is used to create a responsive grid, while grid-column is utilized to span images across multiple columns for an artistic effect.
 
 7. [Book Collection](https://github.com/sandramsc/new/tree/main/Book-Collection-app)
-- **Description** I created a book collection app that enables users to add , edit and delete items (books) in their collection.
-- **Key Takeaway**: Clear call-to-action buttons and an engaging showcase can encourage users to take desired actions such as those outlined in the description.
+- **Description** This app utilizing the OpenLayers library to visualize earthquake data sourced from the USGS (United States Geological Survey). The application provides an interactive map interface that allows users to explore and analyze earthquake occurrences.
+- **Key Takeaway**: I learned how to integrate and utilize the OpenLayers library to create interactive maps, enabling smooth user interactions and dynamic data visualization.  Through the USGS earthquake data API, I acquired hands-on experience in fetching and displaying real-time geospatial data within the map interface.
+
+8. [DeTektVibes](https://github.com/sandramsc/new/tree/main/Book-Collection-app)
+- **Description** The  app is a dynamic visualization created with Python's Folium library, showcasing earthquake magnitude data from the USGS for the past day.
+- **Key Takeaway**:  gained practical experience in working with geospatial data, integrating APIs and creating interactive maps.
+
+9. [Earthquake Magnitude Data Map](https://github.com/sandramsc/new/tree/main/Book-Collection-app)
+- **Description** The  app is a dynamic visualization created with Python's Folium library, showcasing earthquake magnitude data from the USGS for the past day.
+- **Key Takeaway**:  gained practical experience in working with geospatial data, integrating APIs and creating interactive maps.
 ## How to use the app
 
 **Step #1** - Clone the project
