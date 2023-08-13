@@ -12,9 +12,9 @@ This repository showcases the projects that have been instrumental in helping me
 
 - [Andy-Mineo-Music](#application-description)
 - [Berlin-Through Your Eyes](#table-of-contents)
-- [Project Demo](#demo)
-- [Screenshots](#screenshots)
-- [Technology Stack](#technology-stack)
+- [Book Collection](#demo)
+- [Bookmarker-app](#screenshots)
+- [CSS-GridLayout-ImageSpan](#technology-stack)
 - [Features](#features)
 - [How to use the app](#how-to-use-the-app)
 - [License](#license)
@@ -31,6 +31,25 @@ This repository showcases the projects that have been instrumental in helping me
 - **Description** The project focuses on creating a responsive and visually appealing login page for a website.
 - **Key Takeaway**: understanding how to create a layout that is divided into distinct sections, offering a clear separation between a login form and the showcase content.
 
+3. [Book Collection](https://github.com/sandramsc/new/tree/main/Book-Collection-app)
+- **Description** I created a book collection app that enables users to add , edit and delete items (books) in their collection.
+- **Key Takeaway**: Clear call-to-action buttons and an engaging showcase can encourage users to take desired actions such as those outlined in the description.
+
+4. [Bookmarker-app](https://github.com/sandramsc/new/tree/main/Bookmarker-app)
+- **Description** I created a book marker app where users can book mark their favorite site by entering i.e the site name and site url.
+- **Key Takeaway**: learning how to utilize the browser's localStorage API to store and retrieve bookmarks. By checking whether the bookmarks already exist in local storage, one prevent overwriting existing data. This approach enables persistent data storage even after page refreshes.
+
+5. [Book Collection](https://github.com/sandramsc/new/tree/main/Book-Collection-app)
+- **Description** I created a book collection app that enables users to add , edit and delete items (books) in their collection.
+- **Key Takeaway**: Clear call-to-action buttons and an engaging showcase can encourage users to take desired actions such as those outlined in the description.
+
+6. [CSS-GridLayout-ImageSpan](https://github.com/sandramsc/new/tree/main/CSS-GridLayout-ImageSpan)
+- **Description** This CSS Grid Layout ImageSpan landing page is a visually appealing and responsive webpage that utilizes CSS Grid to create a dynamic layout for showcasing images.
+- **Key Takeaway**: This project reinforces the concept of CSS Grid and its ability to create complex layouts with ease. The grid-template-columns property is used to create a responsive grid, while grid-column is utilized to span images across multiple columns for an artistic effect.
+
+7. [Book Collection](https://github.com/sandramsc/new/tree/main/Book-Collection-app)
+- **Description** I created a book collection app that enables users to add , edit and delete items (books) in their collection.
+- **Key Takeaway**: Clear call-to-action buttons and an engaging showcase can encourage users to take desired actions such as those outlined in the description.
 ## How to use the app
 
 **Step #1** - Clone the project
