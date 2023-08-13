@@ -1,0 +1,174 @@
+/* Designed & coded by Sandra Ashipala <https://github.com/sandramsc> */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  background: rgba(0, 0, 0, 0.9);
+  margin: 0;
+  color: #d2ac47;
+  font-family: "Roboto", sans-serif;
+}
+
+.showcase::after {
+  content: "";
+  height: 240vh;
+  width: 100%;
+  background: url("showcase.jpg") no-repeat center center/cover;
+  display: block;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  transition: all 1000ms;
+}
+
+.showcase:hover::after {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+
+.showcase:hover .content {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+.content {
+  position: absolute;
+  z-index: 1;
+  top: 10%;
+  left: 50%;
+  margin-top: 1100px;
+  width: 300px;
+  height: 350px;
+  text-align: center;
+  transition: all 1000ms;
+}
+
+.content .logo {
+  height: 160px;
+  width: 400px;
+  margin-left: -250px;
+}
+
+.content .title {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-left: -250px;
+}
+
+.content .text {
+  line-height: 1.7;
+  margin-top: 1rem;
+  margin-left: -250px;
+  font-size: 1.4rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  overflow: hidden;
+  padding: 2rem 2rem;
+}
+
+.grid-3 {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-2 {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+.profile,
+h3 {
+  align-content: center;
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+}
+
+.profile #paragraph {
+  text-align: left;
+}
+
+.bg-light {
+  background: #a70042;
+  color: #d2ac47;
+}
+
+.bg-dark {
+  background: #d2ac47;
+  color: #a70042;
+  padding: 5px;
+  text-align: center;
+}
+
+footer {
+  margin: 0;
+}
+
+/*small screens*/
+@media (max-width: 560px) {
+  .showcase::after {
+    height: 110vh;
+  }
+
+  .profile,
+  h3,
+  #paragraph {
+    display: none;
+  }
+
+  .content .title {
+    font-size: 1.5rem;
+    margin-top: 13rem;
+    margin-left: -310px;
+  }
+
+  .content {
+    top: 5%;
+    left: 50%;
+    margin-top: 50px;
+    width: 300px;
+    height: 350px;
+  }
+
+  .content .logo {
+    display: none;
+  }
+
+  .content .text {
+    display: none;
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr;
+    padding-top: 8rem;
+  }
+
+  .team div {
+    border-bottom: #333 1fr;
+    padding: 1.2rem 1rem;
+  }
+
+  .bg-dark {
+    padding: 2px;
+  }
+}
+
+/*Landscape*/
+@media (max-height: 500px) {
+  .content .title .text {
+    display: none;
+  }
+
+  .content {
+    top: 5%;
+  }
+}

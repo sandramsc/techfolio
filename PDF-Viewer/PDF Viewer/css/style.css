@@ -1,0 +1,53 @@
+/* Designed & coded by Sandra Ashipala <https://github.com/sandramsc> */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Tamma 2';
+}
+
+.top-bar {
+    background: url('../img/background.jpg') no-repeat center/cover;
+    color: midnightblue;
+    padding: 1.79856rem;
+}
+
+
+.btn {
+    background: #1db9ce;
+    color:midnightblue;
+    outline: #1b47a5;
+    cursor: pointer;
+    padding: 0.4rem 1.3rem;
+    margin-left: 10rem;
+    
+}
+
+.btn:hover {
+    opacity: 0.9;
+    background: #5f7ab7;
+}
+
+.page-info {
+    margin-left: 9.463rem;
+}
+
+.error {
+    background: #d21f3c;
+    color: white;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 790px) {
+
+    .btn {
+        margin-left: 5rem;
+        
+    }
+    
+    .page-info {
+        margin-left: 4.463rem;
+    }
+}
+
