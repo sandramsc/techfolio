@@ -16,10 +16,10 @@ This repository showcases the projects that have been instrumental in helping me
 - [Bookmarker-app](#screenshots)
 - [CSS-GridLayout-ImageSpan](#technology-stack)
 - [DeTektVibes](#features)
-- [Earthquake Magnitude Data Map](#how-to-use-the-app)
-- [License](#license)
-- [Andy-Mineo-Music](#application-description)
-- [Berlin-Through Your Eyes](#table-of-contents)
+- [EarthquakeDataViz-Python-Folium](#how-to-use-the-app)
+- [Expanding-Pearl--CSS-work](#license)
+- [Fetch-API-SpaceX](#application-description)
+- [FilterableList-CitiesInEU](#table-of-contents)
 - [Book Collection](#demo)
 - [Bookmarker-app](#screenshots)
 - [CSS-GridLayout-ImageSpan](#technology-stack)
@@ -59,13 +59,25 @@ This repository showcases the projects that have been instrumental in helping me
 - **Description** This app utilizing the OpenLayers library to visualize earthquake data sourced from the USGS (United States Geological Survey). The application provides an interactive map interface that allows users to explore and analyze earthquake occurrences.
 - **Key Takeaway**: I learned how to integrate and utilize the OpenLayers library to create interactive maps, enabling smooth user interactions and dynamic data visualization.  Through the USGS earthquake data API, I acquired hands-on experience in fetching and displaying real-time geospatial data within the map interface.
 
-8. [DeTektVibes](https://github.com/sandramsc/new/tree/main/Book-Collection-app)
+8. [DeTektVibes](https://github.com/sandramsc/new/tree/main/DeTektVibes)
 - **Description** The  app is a dynamic visualization created with Python's Folium library, showcasing earthquake magnitude data from the USGS for the past day.
 - **Key Takeaway**:  gained practical experience in working with geospatial data, integrating APIs and creating interactive maps.
 
-9. [Earthquake Magnitude Data Map](https://github.com/sandramsc/new/tree/main/Book-Collection-app)
+9. [EarthquakeDataViz--Python-Folium](https://github.com/sandramsc/new/tree/main/EarthquakeDataViz--Python-Folium)
 - **Description** The  app is a dynamic visualization created with Python's Folium library, showcasing earthquake magnitude data from the USGS for the past day.
 - **Key Takeaway**:  gained practical experience in working with geospatial data, integrating APIs and creating interactive maps.
+
+10. [Expanding-Pearl--CSS-work](https://github.com/sandramsc/new/tree/main/Expanding-Pearl--CSS-work)
+- **Description**  This CSS animation creates an engaging visual effect of an expanding circle.
+- **Key Takeaway**:  Through this project, I learned how to use CSS animations and keyframes to create captivating visual effects. The animation property, combined with keyframes, allowed me to smoothly transition between different states of the circle's size and opacity.
+
+11. [Fetch-API-SpaceX](https://github.com/sandramsc/new/tree/main/Fetch-API-SpaceX)
+- **Description** The Fetch API SpaceX application demonstrates the utilization of the Fetch API to retrieve data from various sources and display it dynamically on a web page.
+- **Key Takeaway**:  Fetching data using the Fetch API provides a powerful mechanism to retrieve and interact with external resources asynchronously within a web application.
+
+12. [FilterableList-CitiesInEU](https://github.com/sandramsc/new/tree/main/FilterableList-CitiesInEU)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
 ## How to use the app
 
 **Step #1** - Clone the project
