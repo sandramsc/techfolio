@@ -125,7 +125,7 @@ This repository showcases the projects that have been instrumental in helping me
 - **Description** this is an image carousel using jQuery, showcasing a dynamic way to display and navigate through a collection of images.
 - **Key Takeaway**:  through this project, I gained initial skills in using jQuery, a popular JavaScript library, to manipulate the Document Object Model (DOM) and create interactive web elements.
 
-16. [JS-Array-Methods-Cars](https://github.com/sandramsc/new/tree/main/JS Array Methods - Cars)
+16. [JS-Array-Methods-Cars](https://github.com/sandramsc/new/tree/main/JS-Array-Methods-Cars)
 - **Description** In this project, I explored data analysis and manipulation techniques using JavaScript. The project involves an array of car data containing information about car names, assembly locations, start and end years.
 - **Key Takeaway**:   by combining these array methods, I was able to perform data transformations and gain practical experience in data analysis using JavaScript.
 
