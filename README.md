@@ -142,36 +142,36 @@ This repository showcases the projects that have been instrumental in helping me
 - **Key Takeaway**:   By combining these array methods, I was able to perform data transformations and gain practical experience in data analysis using JavaScript.
 
 20. [Lecrae-Music](https://github.com/sandramsc/new/tree/main/Lecrae-Music)
-- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
-- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+- **Description** showcases an artists website. It encompasses a visually appealing and responsive design, highlighting the artists music, books, videos, and merchandise.
+- **Key Takeaway**:   this project has provided me with hands-on experience in combining HTML, CSS, and JavaScript to create an engaging and responsive web page.
 
 21. [Lionel-Messi-The-G.O.A.T](https://github.com/sandramsc/new/tree/main/Lionel-Messi-The-G.O.A.T)
-- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
-- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+- **Description** In this project, I implemented a creative showcase hover effect using CSS. The core of this project is the showcase hover effect, which dynamically alters the appearance of a content block when hovered over.
+- **Key Takeaway**:  By studying and building upon this project, I gained insights into the world of advanced CSS techniques.
 
 22. [Model-Portfolio](https://github.com/sandramsc/new/tree/main/Model-Portfolio)
-- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
-- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+- **Description** This project involves building a slideshow carousel using JavaScript for automatic transitioning between slides.
+- **Key Takeaway**:   I gained a deeper understanding of JavaScript, DOM manipulation, and event-driven programming.
 
 23. [My-Site](https://github.com/sandramsc/new/tree/main/My-Site)
-- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
-- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+- **Description** This project involves building a personal portfolio website
+- **Key Takeaway**:  Through this project, I gained valuable insights into HTML and CSS for creating a visually appealing online presence.
 
 24. [OOP_Golden-State-Worriors](https://github.com/sandramsc/new/tree/main/OOP_Golden-State-Worriors)
-- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
-- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+- **Description** This project demonstrates the utilization of JavaScript object literals and functions to create i.e profiles of basketball players from the Golden State Warriors.
+- **Key Takeaway**:  I gained practical experience in creating and utilizing JavaScript object literals, defining methods, accessing properties, and leveraging the principles of code organization and reusability
 
 25. [OOP_HandM-products](https://github.com/sandramsc/new/tree/main/OOP_HandM-products)
-- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
-- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+- **Description** This project focuses on creating a series of JavaScript objects to represent i.e different fashion products, extracting information like name, price, and color.
+- **Key Takeaway**:  By working with these objects and implementing methods to summarize and display their details, I gained valuable insights into object-oriented programming and data manipulation.
 
 26. [PDF-Viewer](https://github.com/sandramsc/new/tree/main/PDF-Viewer)
 - **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
 - **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
 
 27. [periodictable](https://github.com/sandramsc/new/tree/main/periodictable)
-- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
-- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+- **Description** a web application that is build using vue.js to showcase a list of items i.e periodic table of elements
+- **Key Takeaway**:  gained practical knowledge in working with vue.js to create a CRUD app.
 
 28. [Photography-Landing-page](https://github.com/sandramsc/new/tree/main/Photography-Landing-page)
 - **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
