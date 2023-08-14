@@ -130,16 +130,16 @@ This repository showcases the projects that have been instrumental in helping me
 - **Key Takeaway**:  gained practical experience in fetching external data, filtering and manipulating arrays, dynamically generating HTML content, and enhancing user interaction.
 
 17. [Image-Slider](https://github.com/sandramsc/new/tree/main/Image-Slider)
-- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
-- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+- **Description** this is an image carousel using jQuery, showcasing a dynamic way to display and navigate through a collection of images.
+- **Key Takeaway**:  Through this project, I gained initial skills in using jQuery, a popular JavaScript library, to manipulate the Document Object Model (DOM) and create interactive web elements.
 
 18. [JS-Array-Methods-Cars](https://github.com/sandramsc/new/tree/main/JS Array Methods - Cars)
-- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
-- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+- **Description** In this project, I explored data analysis and manipulation techniques using JavaScript. The project involves an array of car data containing information about car names, assembly locations, start and end years.
+- **Key Takeaway**:   By combining these array methods, I was able to perform data transformations and gain practical experience in data analysis using JavaScript.
 
 19. [JS-Array-Methods-NBA](https://github.com/sandramsc/new/tree/main/JS-Array-Methods-NBA)
-- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
-- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+- **Description** In this project, I explored data analysis and manipulation techniques using JavaScript. The project involves an array of NBA teams data containing information about team names, divisions, wins and losses.
+- **Key Takeaway**:   By combining these array methods, I was able to perform data transformations and gain practical experience in data analysis using JavaScript.
 
 20. [Lecrae-Music](https://github.com/sandramsc/new/tree/main/Lecrae-Music)
 - **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
