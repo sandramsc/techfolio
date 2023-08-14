@@ -46,6 +46,23 @@ This repository showcases the projects that have been instrumental in helping me
 - [Zealands-landing-page](#demo)
 </details>
 
+<div align="center">
+
+### :hammer_and_wrench: Languages and Tools :
+<div align="center">
+  <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/firebase/firebase-plain-wordmark.svg" title="Firebase" alt="Firebase" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL"  alt="MySQL" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original-wordmark.svg" title="MongoDB"  alt="MongoDB" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg" title="NodeJS" alt="NodeJS" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" alt="Git" width="40" height="40"/>
+</div>
+</div>
+
 ## Projects
 
 1. [Andy Mineo Music](https://github.com/sandramsc/new/tree/main/Andy-Mineo-Music)
@@ -95,6 +112,106 @@ This repository showcases the projects that have been instrumental in helping me
 12. [FilterableList-CitiesInEU](https://github.com/sandramsc/new/tree/main/FilterableList-CitiesInEU)
 - **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
 - **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+13. [Folium-Web-App-Earthquake-Data-Vizualiser](https://github.com/sandramsc/new/tree/main/Folium-Web-App-Earthquake-Data-Vizualiser)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+14. [food-ingredients-app](https://github.com/sandramsc/new/tree/main/food-ingredients-app)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+15. [Hair-Products-Search-app](https://github.com/sandramsc/new/tree/main/Hair-Products-Search-app)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+16. [Hogwarts-Students-Search-app](https://github.com/sandramsc/new/tree/main/Hogwarts-Students-Search-app)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+17. [Image-Slider](https://github.com/sandramsc/new/tree/main/Image-Slider)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+18. [JS Array Methods - Cars](https://github.com/sandramsc/new/tree/main/JS Array Methods - Cars)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+19. [JS-Array-Methods-NBA](https://github.com/sandramsc/new/tree/main/JS-Array-Methods-NBA)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+20. [Lecrae-Music](https://github.com/sandramsc/new/tree/main/Lecrae-Music)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+21. [Lionel-Messi-The-G.O.A.T](https://github.com/sandramsc/new/tree/main/Lionel-Messi-The-G.O.A.T)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+22. [Model-Portfolio](https://github.com/sandramsc/new/tree/main/Model-Portfolio)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+23. [My-Site](https://github.com/sandramsc/new/tree/main/My-Site)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+24. [OOP_Golden-State-Worriors](https://github.com/sandramsc/new/tree/main/OOP_Golden-State-Worriors)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+25. [OOP_HandM-products](https://github.com/sandramsc/new/tree/main/OOP_HandM-products)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+26. [PDF-Viewer](https://github.com/sandramsc/new/tree/main/PDF-Viewer)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+27. [periodictable](https://github.com/sandramsc/new/tree/main/periodictable)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+28. [Photography-Landing-page](https://github.com/sandramsc/new/tree/main/Photography-Landing-page)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+29. [reactredux](https://github.com/sandramsc/new/tree/main/reactredux)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+30. [She-Is..](https://github.com/sandramsc/new/tree/main/She-Is..)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+31. [ShoppingList-app](https://github.com/sandramsc/new/tree/main/ShoppingList-app)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+32. [storefront](https://github.com/sandramsc/new/tree/main/storefront)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+33. [Survey-Form](https://github.com/sandramsc/new/tree/main/Survey-Form)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+34. [TinDog](https://github.com/sandramsc/new/tree/main/TinDog)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+35. [US-President-Search-app](https://github.com/sandramsc/new/tree/main/US-President-Search-app)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+36. [Water-Droplet--CSS-work](https://github.com/sandramsc/new/tree/main/Water-Droplet--CSS-work)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+
+37. [Zealands-landing-page](https://github.com/sandramsc/new/tree/main/Zealands-landing-page)
+- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
+- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
 ## How to use the app
 
 **Step #1** - Clone the project
@@ -104,7 +221,7 @@ $ git clone https://github.com/sandramsc/new.git
 ```
 
 **Step #2**
-navigate to desired project repo and follow the respective readme.md to use that project
+Navigate to desired project repository and follow the respective README.md to use that project
 
 ## License
 
