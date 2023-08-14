@@ -114,26 +114,26 @@ This repository showcases the projects that have been instrumental in helping me
 - **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
 
 13. [Folium-Web-App-Earthquake-Data-Vizualiser](https://github.com/sandramsc/new/tree/main/Folium-Web-App-Earthquake-Data-Vizualiser)
-- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
-- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+- **Description** This application was created with earthquake data from USGS and its main feature is to display a visual representation of all earthquakes happening in the world in the past day, while amplifying the magnitude of those earthquakes with a filled in circular pink ring.
+- **Key Takeaway**:  Gained experience in processing JSON data and transforming it into a pandas DataFrame for analysis. Learned how to retrieve data from an external API (USGS Earthquake API) using Python.
 
 14. [food-ingredients-app](https://github.com/sandramsc/new/tree/main/food-ingredients-app)
-- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
-- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+- **Description** this web app enables users to enter a list of items & view locations at which these items can be purchased.
+- **Key Takeaway**:  I learned how to create a navigation header in a React application (this was my very first into to react.js).  I gained experience in structuring a functional React component that encapsulates the header's content and functionality.
 
 15. [Hair-Products-Search-app](https://github.com/sandramsc/new/tree/main/Hair-Products-Search-app)
-- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
-- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+- **Description** This project showcases the development of a dynamic search interface using JavaScript's fetch function and HTML manipulation.
+- **Key Takeaway**:  gained practical experience in fetching external data, filtering and manipulating arrays, dynamically generating HTML content, and enhancing user interaction.
 
 16. [Hogwarts-Students-Search-app](https://github.com/sandramsc/new/tree/main/Hogwarts-Students-Search-app)
-- **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
-- **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
+- **Description** This project showcases the development of a dynamic search interface using JavaScript's fetch function and HTML manipulation.
+- **Key Takeaway**:  gained practical experience in fetching external data, filtering and manipulating arrays, dynamically generating HTML content, and enhancing user interaction.
 
 17. [Image-Slider](https://github.com/sandramsc/new/tree/main/Image-Slider)
 - **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
 - **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
 
-18. [JS Array Methods - Cars](https://github.com/sandramsc/new/tree/main/JS Array Methods - Cars)
+18. [JS-Array-Methods-Cars](https://github.com/sandramsc/new/tree/main/JS Array Methods - Cars)
 - **Description** a web application that uses the Fetch API to dynamically filter and display cities based on user input.
 - **Key Takeaway**:  gained practical knowledge in working with the Fetch API, event handling, DOM manipulation.
 
