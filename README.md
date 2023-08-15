@@ -213,7 +213,10 @@ $ git clone https://github.com/sandramsc/new.git
 ```
 
 **Step #2**
+
+```bash
 Navigate to desired project repository and follow the respective README.md to use that project
+```
 
 ## License
 
