@@ -114,7 +114,7 @@ This repository showcases the projects that have been instrumental in helping me
 - **Key Takeaway**:  I learned how to create a navigation header in a React application (this was my very first into to react.js).  I gained experience in structuring a functional React component that encapsulates the header's content and functionality.
 
 13. [FrontendMentorChallenge-signup-form](https://github.com/sandramsc/new/tree/main/FrontendMentorChallenge-signup-form)
-- **Description** This was initially a programming challenge received as part of a job application, however re-implemented it more than a year later because I had enjoyed the challenge. THe challenge was to build out a sign-up form complete with client-side validation using JavaScript and make it look as identical to the provided image as possible.
+- **Description** This was initially a programming challenge received as part of a job application in 2021, however re-implemented it more than a year later because I had enjoyed the challenge. THe challenge was to build out a sign-up form complete with client-side validation using JavaScript and make it look as identical to the provided image as possible.
 - **Key Takeaway**:  The form has an email input which required validation, and through this I learned about using regex implementation with JavaScript.
 
 14. [Hair-Products-Search-app](https://github.com/sandramsc/new/tree/main/Hair-Products-Search-app)
