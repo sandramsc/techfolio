@@ -1,0 +1,68 @@
+/* Designed & coded by Sandra Ashipala <https://github.com/sandramsc> */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
+  background: rgba(182, 235, 122, 0.8);
+  height: auto;
+
+}
+
+h1 {
+  text-align:center;
+  font-weight: 400;
+  font-size: 4.5rem;
+  margin: 0px auto;
+  color: rgb(255, 158, 145, 0.70);
+  padding: 0.8rem 3.7rem;
+  margin-left: 86px;
+}
+
+h2 {
+  text-align:center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 0px auto;
+  color: rgb(220, 20, 60, 0.70);
+      
+}
+
+/*Create two even columns that float next to each other*/
+
+.column {
+  text-align: center;
+  width: 75vh;
+  height:88vh;
+}
+
+
+.map {
+  /*float: left*/
+  width:85.33%;
+  height: 680px;
+  float:right;
+  }
+
+#btn {
+  padding: 0.8rem 3.7rem;
+  border: 3px rgba(224, 17, 95, 0.3) solid;
+  display: inline-block;
+  margin: 0.5rem 0 1px;
+  border-radius: 225px;
+  text-decoration: none;
+  color: rgb(119, 18, 122);
+  transition: background 100ms ease;
+  cursor: pointer;
+  margin-left: 24px;
+  font-size: 18px;
+}
+
+button:hover {
+  background: rgba(241, 245, 4, 0.37);
+}
+
+button:disabled {
+  color: #ccc;
+  border-color: #ccc;
+}

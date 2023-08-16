@@ -1,0 +1,44 @@
+/* Designed & coded by Sandra Ashipala <https://github.com/sandramsc> */
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/b1b7f18a51.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="css/addons/flag.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>Hair Products Search</title>
+    <style>
+      .img-container {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6 m-auto">
+          <h3 class="text-center mb-2 text-white">
+            <div class="img-container mb-2">
+              <img width="137.568px" src="../img/shampoo.svg" alt="hair" />
+            </div>
+            Hair Products Search
+          </h3>
+          <div class="form-group">
+            <input
+              type="text"
+              id="search"
+              class="form-control form-control-lg"
+              placeholder="Enter product brand..."
+            />
+          </div>
+          <div id="match-list"></div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

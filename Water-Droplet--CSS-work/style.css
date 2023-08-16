@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f1f1f1;
+
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.droplets {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.droplet {
+  animation: animation 3s;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background: transparent;
+  border-radius: 67% 37% 37% 73% / 45% 52% 48% 53%;
+  box-shadow: inset 10px 10px 10px rgb(165, 165, 165),
+    15px 25px 10px rgb(168, 168, 168), 25px 20px 20px rgb(150, 150, 150),
+    inset -10px -10px 25px rgba(236, 236, 226, 0.322);
+}
+.droplet::after {
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: 65px;
+  background: rgb(255, 255, 255);
+  width: 5px;
+  height: 5px;
+  border-radius: 23% 77% 30% 70% / 47% 50% 50% 53%;
+}
+
+.droplet::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 35px;
+  background: rgb(252, 251, 251);
+  width: 10px;
+  height: 10px;
+  border-radius: 40% 52% 30% 70% / 47% 50% 50% 53%;
+}
+
+.droplet:nth-child(2) {
+  transform: scale(0.39) translate(-200px, 100px);
+  border-radius: 46% 54% 51% 49% / 37% 50% 50% 63%;
+}
+@keyframes animation {
+  from {
+    width: 50px;
+    height: 50px;
+  }
+  to {
+    height: 150px;
+    width: 150px;
+    opacity: 0.5px;
+  }
+}
