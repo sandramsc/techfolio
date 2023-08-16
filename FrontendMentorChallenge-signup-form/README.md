@@ -1,7 +1,7 @@
 # Frontend Mentor - Intro component with sign up form solution
 ![intro-component-with-signup-form-master coding challenge](./design/desktop-design.jpg)
 
-This is a solution to the Intro component with sign up form challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the Intro component with sign up form challenge on Frontend Mentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
   - [The challenge](#the-challenge)
@@ -51,7 +51,7 @@ Techniqiues that I would find useful in perfecting would be the function impleme
 
 ### Useful resources
 
-[How can I validate an email address using regular expression](https://stackoverflow.com/questions/201323/how-can-i-validate-an-email-address-using-a-regular-expression/51332395#51332395) : This stackoverflow post helped me in implemeting the regex function required for proper email validation.
+[How can I validate an email address using regular expression](https://stackoverflow.com/questions/201323/how-can-i-validate-an-email-address-using-a-regular-expression/51332395#51332395) : This stackoverflow post helped me in implementing the regex function required for proper email validation.
 
 
 ## Author
