@@ -191,7 +191,7 @@ This repository showcases the projects that have been instrumental in helping me
 
 32. [Survey-Form](https://github.com/sandramsc/new/tree/main/Survey-Form)
 - **Description** An interactive survey form using HTML and CSS.
-- **Key Takeaway**:  I learned how to structure an HTML form using various form elements such as text inputs, email inputs, number inputs, radio buttons, checkboxes, and textareas. Each element serves a specific purpose in collecting different types of user data.
+- **Key Takeaway**:  I learned how to structure an HTML form using various form elements such as text inputs, email inputs, number inputs, radio buttons, checkboxes, and text areas. Each element serves a specific purpose in collecting different types of user data.
 
 33. [TinDog](https://github.com/sandramsc/new/tree/main/TinDog)
 - **Description** a website for dogs to meet their "whoofmates" with a focus on Bootstrap5 styling.
