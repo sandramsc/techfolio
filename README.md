@@ -1,5 +1,5 @@
 <!-- PROJECT TITLE -->
-  <h1 align="center">My Programming Journey: Building Fundamentals with JavaScript, HTML, CSS, and React</h1>
+  <h1 align="center">MERN Stack projects</h1>
 
 ## Description
 
