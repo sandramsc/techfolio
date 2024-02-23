@@ -1,0 +1,117 @@
+/* Designed & coded by Sandra Ashipala <https://github.com/sandramsc> */
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4e821991dc.js" crossorigin="anonymous"></script>
+    <head>
+        <title>Search</title>
+    </head>
+<style>
+
+            body {
+            margin: 0px;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            }
+
+            .header, .links {
+                display: flex;
+            align-items: center;
+            }
+
+            .header a, .links a{
+                color: #202124;
+                padding: 10px;
+                /*removes bottom line in links*/
+                text-decoration: none;
+            }
+
+            .links {
+                /*sends links to right side of page*/
+                margin-left: auto;
+            }
+    
+            .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 90%;
+            }
+
+            .container .coco {
+            display: flex;
+            flex-direction: row;
+            border-radius: 25px;
+            border: 1px solid #afafaf;
+            align-items: center;
+            margin: 10px;
+            padding-left: 15px;
+            }
+
+            .container .coco input {
+            border: none;
+            border-radius: 25px;
+            }
+
+            input {
+            font-size: 16px;
+            width: 534px;
+            padding: 12px 0;
+            }
+
+            input[type=text] {
+            color: #000;
+            margin: 0 0 0 5px;
+            }
+
+            input:focus {
+            outline: none;
+            }
+   
+            input[type=submit] {
+                font-size: 14px;
+                width: 185px;
+                border-width: 0px;
+                border-radius: 2px;
+                margin: 20px 0px 0px 67px;
+                padding: 0 1px;
+                line-height: 27px;
+                height: 36px;
+                border-radius: 4px;
+                color: #3c4043;
+                cursor: pointer;
+                text-align: center;
+                }
+
+            input[type=submit]:hover {
+            box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
+            }
+
+</style>
+    <body>
+        <br>
+        <div class="header">
+        <div class="links">
+            <a href="g_img_search.html">Google Image Search</a>
+            <a href="g_adv_search.html">Google Advanced Search</a>
+        </div>
+    </div>
+ 
+    <div class="container">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
+        <form action="https://google.com/search" method="GET">
+            <div class="coco">
+                <!--designs search icon-->
+            <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="#808080" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="8.5" r="5" /><path d="m17.571 17.5-5.571-5.5" /></g></svg>
+            <!--the name field specifies the query type-->
+            <input class="" name="q" type="text" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off"role="combobox" title="Search" aria-label="Search">
+        </div>
+        
+        <input name="btnK" type="submit" aria-label="Google Search" value="Google Search">
+                                                    
+        <input name="btnI" type="submit" aria-label="I'm Feeling Lucky" value="I'm Feeling Lucky">
+        </form>
+    </div>
+    </body>
+</html>

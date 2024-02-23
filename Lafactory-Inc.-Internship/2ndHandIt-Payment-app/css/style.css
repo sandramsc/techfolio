@@ -1,0 +1,141 @@
+.elmo.froggy {
+  background-color: #55071d;
+}
+
+.elmo.froggy * {
+  font-family: "Roboto", "Open Sans", "Segoe UI", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.elmo.froggy fieldset {
+  border: 1px solid #b5a4ed;
+  padding: 35px;
+  border-radius: 5px;
+  margin: 0 10px 20px;
+}
+
+.elmo.froggy fieldset legend {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #cdd0f8;
+  background-color: #a181da;
+}
+
+.elmo.froggy fieldset legend + * {
+  clear: both;
+}
+
+.elmo.froggy .card-only {
+  display: block;
+  font-size: 16px;
+}
+
+.elmo.froggy label {
+  width: 100%;
+  min-width: 70px;
+  padding: 11px 0;
+  color: #cdd0f8;
+  font-size: 16px;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.elmo.froggy.form-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.elmo.froggy .form-row + .form-row {
+  border-top: 1.8px solid #819efc;
+}
+
+.elmo.froggy input,
+.elmo.froggy button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border-style: none;
+}
+
+.elmo.froggy input:-webkit-autofill {
+  -webkit-text-fill-color: #fce883;
+  transition: background-color 100000000s;
+  -webkit-animation: 1ms void-animation-out;
+  animation: 1ms void-animation-out;
+}
+
+.elmo.froggy .StripeElement--webkit-autofill {
+  background: transparent !important;
+}
+
+.elmo.froggy .StripeElement {
+  width: 100%;
+  padding: 11px 15px 11px 0;
+}
+
+.elmo.froggy input {
+  width: 100%;
+  padding: 11px 15px 11px 0;
+  color: #ffff;
+  background-color: transparent;
+  -webkit-animation: 1ms void-animation-out;
+  animation: 1ms void-animation-out;
+}
+
+.elmo.froggy input::-webkit-input-placeholder {
+  color: #d4e2f3;
+}
+
+.elmo.froggy input::-moz-placeholder {
+  color: #d4e2f3;
+}
+
+.elmo.froggy input:-ms-input-placeholder {
+  color: #d4e2f3;
+}
+
+#card-element {
+  padding-top: 5px;
+}
+
+.elmo.froggy button {
+  display: block;
+  width: 377px;
+  height: 40px;
+  margin: 40px 15px 0;
+  background: #ffb830;
+  box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 #ffb9f6;
+  border-radius: 3px;
+  color: #0d0628;
+  font-weight: 500;
+  font-size: 17px;
+  cursor: pointer;
+  border: none;
+}
+
+.elmo.froggy button:active {
+  background-color: #ffd079;
+  box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08),
+    inset 0 1px 0 #8fddd7;
+}
+.elmo.froggy .error .message {
+  color: #fff;
+}
+
+@media (max-width: 30em) {
+   a.button {
+    display: block;
+    margin: 0.4em auto;
+  }
+}

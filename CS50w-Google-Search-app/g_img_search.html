@@ -1,0 +1,185 @@
+/* Designed & coded by Sandra Ashipala <https://github.com/sandramsc> */
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/4e821991dc.js" crossorigin="anonymous"></script>
+        <title>Google Image Search</title>
+    </head>
+    <style>
+
+        body {
+            margin: 0px;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            }
+
+            .header, .links {
+                display: flex;
+                align-items: center;
+            }
+
+            .header a, .links a{
+                color: #202124;
+                padding: 10px;
+                /*removes bottom line in links*/
+                text-decoration: none;
+            }
+
+            .links {
+                /*sends links to right side of page*/
+                margin-left: auto;
+            }
+    
+            .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 90%;
+            }
+
+            .container .subtext {
+                color: #4285f4;
+                position: relative;
+                left: 110px;
+                top: -18px;
+            }
+
+            .header a, .link a{
+                color: #202124;
+                padding: 10px;
+                /*removes bottom line in links*/
+                text-decoration: none;
+            }
+
+            .link {
+                /*sends links to right side of page*/
+                margin-left: auto;
+            }
+    
+            .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 90%;
+            }
+           
+            .container .coco {
+                display: flex;
+                flex-direction: row;
+                border-radius: 25px;
+                border: 1px solid #afafaf;
+                align-items: center;
+                margin: 10px;
+                padding-left: 15px;
+            }
+            .container .coco input {
+                border: none;
+                border-radius: 25px;
+            }
+
+            input {
+                font-size: 16px;
+                width: 534px;
+                padding: 12px 0;
+            }
+
+            input[type=text] {
+                color: #000;
+                margin: 0 0 0 5px;
+            }
+
+            input:focus {
+                outline: none;
+            }
+   
+            input[type=submit] {
+                font-size: 14px;
+                width: 185px;
+                border-width: 0px;
+                border-radius: 2px;
+                margin: 20px;
+                padding: 0 16px;
+                line-height: 27px;
+                height: 36px;
+                border-radius: 4px;
+                color: #3c4043;
+                cursor: pointer;
+                text-align: center;
+                }
+            input[type=submit]:hover {
+                box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
+            }
+
+            button {
+                appearance: auto;
+                text-rendering: auto;
+                letter-spacing: normal;
+                word-spacing: normal;
+                line-height: normal;
+                text-transform: none;
+                text-indent: 0px;
+                text-shadow: none;
+                display: inline-block;
+                text-align: center;
+                align-items: flex-start;
+                cursor: default;
+                box-sizing: border-box;
+                color: #4285f4;
+                margin: 0em;
+                padding: 1px 6px;
+                border-width: 2px;
+                border-style: outset;
+                border-image: initial;
+                border-radius: 2px;
+            }
+
+
+            .bubble{
+                display: inline-block;
+                fill: currentColor;
+                height: 24px;
+                line-height: 24px;
+                position: relative;
+                width: 24px;
+                
+            }
+
+            .chips {
+                flex: 0 0 auto;
+                padding-right: 13px;
+                height: 44px;
+                width: 44px;
+                background: transparent;
+                border: none;
+                cursor: pointer;
+                flex: 0 0 auto;
+                padding: 0;
+            }
+
+         
+ </style>
+ <body>
+     <br>
+     <div class="header">
+        <div class="link">
+            <a href="g_search.html">Google Search</a>
+        </div>
+    </div>
+        <div class="container">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
+            <div class="subtext">
+                <span>images</span>
+            </div>
+            <form action="http://images.google.com/images" method="GET">
+                <div class="coco">
+                    <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="#808080" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="8.5" r="5" /><path d="m17.571 17.5-5.571-5.5" focusable="false"/></g></svg>
+                    <input class="" name="q" type="text" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off"role="combobox" title="Search" aria-label="Search">
+                    <button class="chips" jsname="chips" aria-label="Google Search" type="submit" data-ved="0ahUKEwiKkebWupDzAhWUfXAKHWYzDoQQ4dUDCAc"> <div class="zgAlFc"> <span class="bubble tea"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-iml="1632240766058"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></span> </div> </button>
+                </div>
+            </form>
+        </div>
+</body>
+</html>
