@@ -1,0 +1,358 @@
+/* Designed & coded by Sandra Ashipala <https://github.com/sandramsc> */
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Philosopher", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #0000;
+}
+
+.wrapper {
+  background: #fff;
+  width: 450px;
+  border-radius: 16px;
+  box-shadow: 0 0 128px 0 rgb(249, 219, 189),
+    0 32px 64px -48px rgb(252, 161, 125, 0.5);
+}
+
+/*Signup Form CSS*/
+.form {
+  padding: 55px 60px;
+}
+
+.form header {
+  font-size: 35px;
+  font-weight: 600;
+  padding-bottom: 30px;
+  border-bottom: 2px double rgb(249, 219, 189);
+}
+
+.form form {
+  margin: 20px 0;
+}
+.form form .error-txt {
+  font-family: "Roboto";
+  color: #721c24;
+  background: #f8d7da;
+  padding: 8px 10px;
+  text-align: center;
+  border-radius: 1.9px;
+  margin-bottom: 10px;
+  border: 1px solid #f5c6cb;
+  display: none;
+}
+.form form .name-details {
+  display: flex;
+}
+form .name-details .field:first-child {
+  margin-right: 10px;
+}
+form .name-details .field:last-child {
+  margin-left: 10px;
+}
+
+.form form .field {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.form form .field label {
+  margin-bottom: 2px;
+}
+
+.form form .field input {
+  outline: none;
+}
+
+.form form .input input {
+  font-family: "Roboto";
+  height: 35px;
+  width: 100%;
+  font-size: 14px;
+  padding: 0 10px;
+  border: 1px solid #9a348e;
+  border-radius: 4px;
+}
+.form form .image input {
+  font-size: 17px;
+}
+.form form .button input {
+  margin-top: 13px;
+  height: 45px;
+  font-size: 17px;
+  font-weight: 500;
+  background: #da627d;
+  color: #0d0628;
+  border-radius: 3px;
+  cursor: pointer;
+  border: none;
+}
+.form form .field i {
+  position: absolute;
+  right: 15px;
+  color: #a2a2a3;
+  top: 65%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.form form .field i.active::before {
+  color: #a2a2a3;
+  /*unicode of an icon*/
+  content: "\f070";
+}
+.form .link {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 17px;
+}
+.form .link a {
+  color: #0d0628;
+}
+.form .link a:hover {
+  text-decoration: underline;
+}
+
+/*Users CSS*/
+.users {
+  padding: 25px 30px;
+}
+.users header,
+.users-list a {
+  display: flex;
+  align-items: center;
+  padding-bottom: 24px;
+  justify-content: space-between;
+  border-bottom: 1px solid #e6e6;
+}
+.wrapper img {
+  object-fit: cover;
+  border-radius: 50%;
+}
+:is(.users, .users-list) .content {
+  display: flex;
+  align-items: center;
+}
+.users header .content img {
+  height: 55px;
+  width: 50px;
+}
+
+:is(.users, .users-list) .details {
+  color: #0d0628;
+  margin-left: 10px;
+}
+
+:is(.users, .users-list) .details span {
+  font-size: 16px;
+  font-weight: 600;
+}
+.users header .logout {
+  color: #44d6aa;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 9px 15px;
+  background: #b61d3e;
+}
+
+.users .search {
+  margin: 20px 0;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+.users .search .text {
+  font-size: 17px;
+}
+.users .search input {
+  position: absolute;
+  height: 45px;
+  width: calc(100% - 50px);
+  border: 1px solid #e6e6;
+  padding: 0 13px;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+.users .search input.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+.users .search button {
+  width: 47px;
+  height: 42px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: rgb(109, 106, 106);
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 0px 4px 4px 0;
+  transition: all 0.2s ease;
+}
+.users .search button.active {
+  color: rgb(109, 106, 106);
+  background: #fff;
+}
+.users .search button.active i::before {
+  color: #a2a2a3;
+  /*unicode of an icon*/
+  content: "\f00d";
+}
+
+.users-list {
+  max-height: 350px;
+  /*scroll bar*/
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+:is(.users-list, .chat-box)::-webkit-scrollbar {
+  width: 0px;
+  display: none; /* Safari and Chrome */
+}
+
+.users-list a {
+  margin-bottom: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-right: 15px;
+  border-bottom-color: #fde6e6;
+}
+
+.users-list a .content img {
+  height: 55px;
+  width: 50px;
+}
+.users-list a .content p {
+  color: #a6a6ad;
+}
+.users-list a:last-child {
+  border: none;
+  margin-bottom: 0px;
+}
+
+.users-list a .status-dot {
+  font-size: 12.8px;
+  color: #18ad52;
+}
+
+/*Offline status in php*/
+.users-list a .status-dot.offline {
+  color: #ccc;
+}
+
+/*Chat Area CSS*/
+.chat-area header {
+  display: flex;
+  align-items: center;
+  padding: 18px 30px;
+}
+
+.chat-area header img {
+  height: 55px;
+  width: 50px;
+  margin: 0 15px;
+}
+.chat-area header span {
+  font-size: 15px;
+  font-weight: 500;
+}
+.chat-area header .back-icon {
+  font-size: 18px;
+  color: #b4c516;
+}
+
+.chat-box {
+  height: 495px;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+  background: #eec6c6;
+  padding: 10px 30px 20px 30px;
+  box-shadow: inset 0 32px 32px -32px rgb(249, 219, 189 / 55%),
+    inset 0 -32px 32px -32px rgb(249, 219, 189 / 5%);
+}
+.chat-box .chat {
+  margin: 15px 0;
+}
+.chat-box .chat p {
+  padding: 8px 16px;
+  /*contains text within specified div*/
+  word-wrap: break-word;
+  box-shadow: 0 0 32px rgb(249, 219, 189 / 65%),
+    0 16px 16px rgb(249, 219, 189 / 110%);
+}
+
+.chat-box .outgoing {
+  display: flex;
+}
+
+.outgoing .details {
+  margin-left: auto;
+  max-width: calc(100% - 130px);
+}
+.outgoing .details p {
+  background: rgb(65, 36, 36);
+  color: rgb(252, 252, 252);
+  border-radius: 18.2px 18.2px 0 18.2px;
+}
+.chat-box .incoming {
+  display: flex;
+  align-items: flex-end;
+}
+
+.chat-box .incoming img {
+  height: 36px;
+  width: 32px;
+}
+.incoming .details {
+  margin-left: 10px;
+  margin-right: auto;
+  max-width: calc(100% - 130px);
+}
+.incoming .details p {
+  background: #ffffff;
+  color: rgb(65, 36, 36);
+  border-radius: 18.2px 18.2px 18.2px 0;
+}
+.chat-area .typing-area {
+  padding: 18px 30px;
+  display: flex;
+  /*space-between typing area and button*/
+  justify-content: space-between;
+}
+.typing-area input {
+  height: 45px;
+  width: calc(100% - 54px);
+  font-size: 16px;
+  border: 1px solid #ccc;
+  padding: 0 13px;
+  border-radius: 6px 0 0 6px;
+  outline: none;
+}
+
+.typing-area button {
+  width: 50px;
+  border: none;
+  outline: none;
+  color: #44d6aa;
+  background: #b61d3e;
+  cursor: pointer;
+  /*curved left-top-bottom corners*/
+  border-radius: 0 6px 6px 0;
+}

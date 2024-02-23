@@ -1,0 +1,96 @@
+/*Designed & coded by Sandra Ashipala <https://github.com/sandramsc> */
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap");
+
+body {
+  font-size: 14px;
+  font-family: "Pathway Gothic One", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  text-shadow: 0px 0px 5px #ea9bf4;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: conic-gradient(#f1f7e7, #e7eab5bb);
+}
+
+.container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  max-width: 750px;
+  padding: 110px 20px 110px;
+}
+
+.container .sesame {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  -ms-flex: auto;
+  flex: auto;
+  min-width: 100%;
+  min-height: 500px;
+  padding: 0 40px;
+}
+
+.container .sesame + .sesame {
+  margin-top: 70px;
+}
+
+.container .elmo {
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+  padding: 80px 0px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+@media (min-width: 670px) {
+  .container .elmo {
+    padding: 40px;
+  }
+}
+
+.container .elmo.submitted form,
+.container .elmo.submitting form {
+  opacity: 0;
+  transform: scale(0.9);
+  pointer-events: none;
+}
+
+.container .elmo * {
+  margin: 0;
+  padding: 0;
+}
+
+.container .elmo form {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  transition-property: opacity, transform;
+  transition-duration: 0.35s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.container .elmo form input::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.container .elmo form input::-moz-placeholder {
+  opacity: 1;
+}
+
+.container .elmo form input:-ms-input-placeholder {
+  opacity: 1;
+}

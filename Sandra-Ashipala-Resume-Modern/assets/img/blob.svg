@@ -1,0 +1,9 @@
+         <svg class="home_blob" viewBox="0 0 440 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+                            <mask id="mask0" mask-type="alpha">
+                                <path color="#000" id="blob" d="M419.5,286.5Q413,323,414.5,379Q416,435,371,459Q326,483,275,488.5Q224,494,187,459Q150,424,126.5,390.5Q103,357,75.5,325Q48,293,49,250Q50,207,68.5,169Q87,131,117,101Q147,71,188,61.5Q229,52,269.5,58.5Q310,65,360.5,68.5Q411,72,435,114.5Q459,157,442.5,203.5Q426,250,419.5,286.5Z" ></path>
+                            </mask>
+                        <g mask="url(#mask0)">
+                            <path fill="#000" id="blob" d="M419.5,286.5Q413,323,414.5,379Q416,435,371,459Q326,483,275,488.5Q224,494,187,459Q150,424,126.5,390.5Q103,357,75.5,325Q48,293,49,250Q50,207,68.5,169Q87,131,117,101Q147,71,188,61.5Q229,52,269.5,58.5Q310,65,360.5,68.5Q411,72,435,114.5Q459,157,442.5,203.5Q426,250,419.5,286.5Z" ></path>
+                            <image class="home_blob-img"  x="12" y="38" preserveAspectRatio="xMinYMin slice" xlink:href="assets/img/profile.png" clip-path="url(#user-space)"/>  
+                        </g>
+                        </svg>

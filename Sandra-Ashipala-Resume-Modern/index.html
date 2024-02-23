@@ -1,0 +1,657 @@
+<!-- Designed & coded by Sandra Ashipala <https://linkedin.com/in/sandraashipala> <https://github.com/sandramsc> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Swiper CSS-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--Bootstrap CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--Fontawesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <title>Sandra Ashipala Portfolio</title>
+
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">Sandra Ashipala</a>
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list grid">
+            <!--navigation-->
+            <li class="nav_item">
+              <a href="#home" class="nav_link active-link">
+                <i class="bi bi-house-door nav_icon"></i> Home
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">
+                <i class="bi bi-person nav_icon"></i> About
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#skills" class="nav_link">
+                <i class="bi bi-card-checklist nav_icon"></i> Skills
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#achievements" class="nav_link">
+                <i class="bi bi-award nav_icon"></i> Achievements
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#portfolio" class="nav_link">
+                <i class="bi bi-card-image nav_icon"></i> Portfolio
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">
+                <i class="bi bi-envelope nav_icon"></i> Contact Me
+              </a>
+            </li>
+          </ul>
+          <i class="bi bi-x nav_close" id="nav-close"></i>
+        </div>
+
+        <div class="nav_btns">
+          <!--Change Theme-->
+          <i class="bi bi-moon-fill change_theme" id="theme_button"></i>
+          <div class="nav_toggle" id="nav-toggle">
+            <i class="bi bi-toggles"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Main-->
+    <main class="main">
+      <!--home-->
+      <section class="home section" id="home">
+        <div class="home_container container grid">
+          <div class="home_content grid">
+            <div class="home_social">
+              <a
+                href="https://linkedin.com/in/sandraashipala"
+                target="blank"
+                class="home_social-icon"
+              >
+                <i class="bi bi-linkedin"></i>
+              </a>
+
+              <a
+                href="https://github.com/sandramsc"
+                target="blank"
+                class="home_social-icon"
+              >
+                <i class="bi bi-github"></i>
+              </a>
+            </div>
+            <!--profile image-->
+            <div class="home_img">
+              <svg
+                class="home_blob"
+                viewBox="0 0 500 500"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="100%"
+                id="blobSvg"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    id="blob"
+                    d="M442.5,295Q405,340,386.5,397.5Q368,455,309,445Q250,435,195,437.5Q140,440,112,393Q84,346,70,298Q56,250,45,187.5Q34,125,88.5,94.5Q143,64,196.5,56Q250,48,302,59Q354,70,384,112.5Q414,155,447,202.5Q480,250,442.5,295Z"
+                  ></path>
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    id="blob"
+                    d="M442.5,295Q405,340,386.5,397.5Q368,455,309,445Q250,435,195,437.5Q140,440,112,393Q84,346,70,298Q56,250,45,187.5Q34,125,88.5,94.5Q143,64,196.5,56Q250,48,302,59Q354,70,384,112.5Q414,155,447,202.5Q480,250,442.5,295Z"
+                  ></path>
+                  <image
+                    class="home_blob-img"
+                    x="34"
+                    y="42"
+                    preserveAspectRatio="xMinYMin slice"
+                    xlink:href="assets/img/profile.png"
+                    clip-path="url(#user-space)"
+                  />
+                </g>
+              </svg>
+            </div>
+            <!--main intro-->
+            <div class="home_data">
+              <h1 class="home_title">Hi, I'm Sandra</h1>
+              <h3 class="home_subtitle">Software Developer</h3>
+              <p class="home_description">
+                Experienced in web design and development
+              </p>
+              <a href="#contact" class="button button_flex">
+                Contact Me
+                <i class="bi bi-envelope nav_icon button_icon"></i>
+              </a>
+            </div>
+          </div>
+      </section>
+      <!--about-->
+      <section class="about section" id="about">
+        <h2 class="section_title">About Me</h2>
+        <span class="section_subtitle">My introduction</span>
+        <div class="about_container container grid">
+          <img src="assets/img/about.jpg" alt="" class="about_img" />
+          <div class="about_data">
+            <p class="about_description">
+              Experienced in web design and development, working with web based
+              technologies to deliver solutions and quality work
+            </p>
+
+            <div class="about_info">
+              <div>
+                <span class="about_info-title">IBM</span>
+                <span class="about_info-name"
+                  >Badge <br />
+                  Enterprise Design Thinking Practitioner</span
+                >
+              </div>
+
+              <div>
+                <span class="about_info-title">freeCodeCamp</span>
+                <span class="about_info-name"
+                  >Certificate <br />
+                  Responsive Web Design</span
+                >
+              </div>
+
+              <div>
+                <span class="about_info-title">Coursera</span>
+                <span class="about_info-name"
+                  >Certificate <br />
+                  Python Data Structures</span
+                >
+              </div>
+            </div>
+            <div class="about_buttons">
+              <a
+                download=""
+                href="assets/pdf/Sandra_resume.pdf"
+                class="button button_flex"
+              >
+                Download Resumé<i class="bi bi-download button_icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--skills-->
+      <section class="skills section" id="skills">
+        <h2 class="section_title">Skills</h2>
+        <span class="section_subtitle">Technical level</span>
+
+        <!--skills content-->
+        <div class="skills_container container grid">
+          <div>
+            <!--IT skills-->
+            <div class="skills_content">
+              <div class="skills_header">
+                <i class="bi bi-tools skills_icon"></i>
+
+                <div>
+                  <h1 class="skills_title">IT</h1>
+                  <span></span>
+                </div>
+
+                <i onclick="toggle()" class="bi bi-caret-down skills_arrow"></i>
+              </div>
+
+              <div id="toggleSkills" class="skills_list grid">
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">HTML & CSS</h3>
+                    <span></span>
+                  </div>
+                  <div class="twizzlers">
+                    <div class="percentage html"><span>85%</span></div>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">React.js, MongoDB, Node.js & Firebase</h3>
+                    <span></span>
+                  </div>
+                  <div class="twizzlers">
+                    <div class="percentage js"><span>65%</span></div>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">SQL,Python, JavaScript</h3>
+                    <span></span>
+                  </div>
+                  <div class="twizzlers">
+                    <div class="percentage php"><span>68%</span></div>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Web/Data scraping, UiPath, Docker</h3>
+                    <span></span>
+                  </div>
+                  <div class="twizzlers">
+                    <div class="percentage scraping"><span>68%</span></div>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Wix/WordPress</h3>
+                    <span></span>
+                  </div>
+                  <div class="twizzlers">
+                    <div class="percentage wix"><span>89%</span></div>
+                  </div>
+                </div>
+
+                <div class="skills_data">
+                  <div class="skills_titles">
+                    <h3 class="skills_name">Confluence & Jira</h3>
+                    <span></span>
+                  </div>
+                  <div class="twizzlers">
+                    <div class="percentage confluence"><span>82%</span></div>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--qualification & work-->
+      <section class="qualification section">
+        <h2 class="section_title">Qualifications</h2>
+        <span class="section_subtitle">Education & Work Journey</span>
+
+        <div class="qualification_container container">
+          <div class="qualification_tabs">
+            <div
+              class="qualification_button button_flex"
+              data-target="#education"
+            >
+              <i class="fa fa-regular fa-graduation-cap qual_icon"></i> 
+              Education
+            </div>
+
+            <div class="qualification_button button_flex" data-target="#work">
+              <i class="fa fa-regular fa-briefcase qual_icon"></i> 
+              Work
+            </div>
+          </div>
+
+          <div class="qualification_sections">
+            <div
+              class="qualification_content"
+              data-content
+              id="education"
+            >
+              <!--education#1-->
+              <div class="qualification_data">
+                <div>
+                  <h3 class="qualification_title">MSc. Computer Science</h3>
+                  <span class="qualification_subtitle"
+                    >Technical University Berlin</span
+                  >
+                  <div class="qualification_calender">
+                    <i class="bi bi-calendar2-week"></i>
+                    04/2017 - 06/2019
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+              </div>
+              
+                       <!--work#2-->
+              <div class="qualification_data">
+                    <div></div>
+                    <div>
+                      <span class="qualification_rounder"></span>
+                      <span class="qualification_line"></span>
+                    </div>
+                    <div>
+                      <h3 class="qualification_title">
+                        Frontend Programmer (remote full-time)
+                      </h3>
+                      <span class="qualification_subtitle"
+                        >Siciliamia - Italy
+                      </span>
+                      <div class="qualification_calender">
+                        <i class="bi bi-calendar2-week"></i>
+                        11/2021 - 05/2022
+                      </div>
+                    </div>
+              </div>
+
+
+              <!--education#2-->
+              <div class="qualification_data">
+       
+                <div>
+                  <h3 class="qualification_title">Exchange student</h3>
+                  <span class="qualification_subtitle"
+                    >Hochschule für Techniik und Wirtschaft Berlin</span
+                  >
+                  <div class="qualification_calender">
+                    <i class="bi bi-calendar2-week"></i>
+                    11/2015 - 03/2017
+                  </div>
+                </div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+              </div>
+              
+               <!--work#3-->
+              <div class="qualification_data">
+                    <div></div>
+                    <div>
+                      <span class="qualification_rounder"></span>
+                      <span class="qualification_line"></span>
+                    </div>
+                    <div>
+                      <h3 class="qualification_title">
+                        Web Developer (remote full-time)
+                      </h3>
+                      <span class="qualification_subtitle"
+                        >Lafactory, Inc. - France
+                      </span>
+                      <div class="qualification_calender">
+                        <i class="bi bi-calendar2-week"></i>
+                        07/2021 - 09/2021
+                      </div>
+                    </div>
+              </div>
+
+              <!--education#3-->
+              <div class="qualification_data">
+                <div>
+                  <h3 class="qualification_title">
+                    BEng. Electronic Information Engineering
+                  </h3>
+                  <span class="qualification_subtitle"
+                    >Central China Normal University</span
+                  >
+                  <div class="qualification_calender">
+                    <i class="bi bi-calendar2-week"></i>
+                    09/2011 - 06/2015
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+              </div>
+              
+              <!--work#4-->
+              <div class="qualification_data">
+                <div></div>
+                <div>
+                  <span class="qualification_rounder"></span>
+                  <span class="qualification_line"></span>
+                </div>
+                <div>
+                  <h3 class="qualification_title">
+                    Data Migration Analyst (part-time)
+                  </h3>
+                  <span class="qualification_subtitle"
+                    >PSI Metals GmbH - Berlin, Germany
+                  </span>
+                  <div class="qualification_calender">
+                    <i class="bi bi-calendar2-week"></i>
+                    04/2019 - 03/2020
+                  </div>
+                </div>
+              </div>
+                  <!-- <span class="qualification_line"></span> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <!--achievenents-->
+      <section class="achievements section" id="achievements">
+        <h2 class="section_title">Achievements</h2>
+        <span class="section_subtitle">Awards & Honors</span>
+
+        <div class="achievements_container container grid">
+          <!--achievenent 1-->  
+          <div class="achievements_content">
+            <div>
+              <i class="bi bi-award achievement_icon"></i>
+              <h3 class="achievements_title">Recipient of the Chinese Government Scholarship <br> Full scholarship (2010 - 2015)</h3>
+
+            </div>
+            <span class="button button_flex button_small button_link achievements_button">
+              View More
+              <i class="bi bi-arrow-right button_icon"></i>
+            </span>
+
+            <div class="achievements_model">
+              <div class="achievements_model-content">
+                <h4 class="achievements_model-title">Awards</h4>
+                <i class="bi bi-x achievements_model-close"></i>
+
+                <ul class="achievements_model-achievements grid">
+                  <li class="achievements_model-achievements">
+                    <i class="bi bi-check-square achievements_model-icon"></i>
+                    <p>Winner LongHack (VitaDAO prize) 2022</p>
+                  </li>
+                  
+                  <li class="achievements_model-achievements">
+                    <i class="bi bi-check-square achievements_model-icon"></i>
+                    <p>nanoGiants GmbH Growth Hackathon 2022 (1st Place)</p>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!--achievenent 2-->  
+          <div class="achievements_content">
+            <div>
+              <i class="bi bi-award achievement_icon"></i>
+              <h3 class="achievements_title">Friendship Award <br> from Central China Normal University (2012)</h3>
+
+            </div>
+            <span class="button button_flex button_small button_link achievements_button">
+              View More
+              <i class="bi bi-arrow-right button_icon"></i>
+            </span>
+
+            <div class="achievements_model">
+              <div class="achievements_model-content">
+                <h4 class="achievements_model-title">Honnors</h4>
+                <i class="bi bi-x achievements_model-close"></i>
+
+                <ul class="achievements_model-achievements grid">
+                  <li class="achievements_model-achievements">
+                    <i class="bi bi-check-square achievements_model-icon"></i>
+                    <p>NASA Space Apps Challenge/Hackathon 2021: Global Nominee</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--portfolio content-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section_title">Portfolio</h2>
+        <span class="section_subtitle">Most recent work</span>
+
+        <div class="portfolio_container container swiper-container">
+          <div class="swiper-wrapper">
+            <!--portfolio 1-->
+            <div class="portfolio_content grid swiper-slide">
+                <img style="height: 170px;" class="portfolio_img" src="./assets/img/portfolio1.png"/>
+                  <div class="portfolio_data">
+                    <h3 class="portfolio_title">Modern Chat App</h3>
+                    <p class="portfolio_description">chat app with front-end & backend design: login page, signup page, chat area; 
+                    connects to a remote database.</p>
+                  </div>
+            </div>
+
+            <!--portfolio 2-->
+            <div class="portfolio_content grid swiper-slide">
+                  <img class="portfolio_img" src="./assets/img/portfolio2.png"/>
+                    <div class="portfolio_data">
+                      <h3 class="portfolio_title">Google Search App</h3>
+                      <p class="portfolio_description">a web app with the Google Search, Google Image Search and Google Advanced Search functionalities.</p>
+                    </div>
+            </div>
+
+            <!--portfolio 3-->
+            <div class="portfolio_content grid swiper-slide">
+                <img class="portfolio_img" src="./assets/img/portfolio3.png" />
+                  <div class="portfolio_data">
+                    <h3 class="portfolio_title">Payment App</h3>
+                    <p class="portfolio_description">stripeAPI integrated payment app with frontend & backend, connects to MySQL database.</p>
+                  </div>
+            </div>
+          </div>
+         
+          <!--swiper arrows -->
+          <div class="swiper-button-prev">
+          <i class="bi bi-arrow-left-circle-fill swiper_portfolio_icon"></i></div>
+          
+          <div class="swiper-button-next">
+          <i class="bi bi-arrow-right-circle-fill swiper_portfolio_icon"></i></div>
+          
+          <div class="swiper-pagination"></div>
+         
+        </div>
+      </section>
+      <!--contact me-->
+      <section class="contact section" id="contact">
+        <h2 class="section_title">Contact Me</h2>
+        <span class="section_subtitle">Get in touch</span>
+        <div class="contact_container container grid">
+          <div>
+            <div class="contact_info">
+              <i class="bi bi-envelope-fill contact_icon"></i>
+              <div>
+                <h3 class="contact_title">Email</h3>
+                <span class="conatct_subtitle">sandraashipala@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact_info">
+              <i class="bi bi-geo-alt-fill contact_icon"></i>
+              <div>
+                <h3 class="contact_title">Current location</h3>
+                <span class="conatct_subtitle">Namibia</span>
+              </div>
+            </div>
+          </div>
+
+          <form action="mailto:sandraashipala@gmail.com" method="post" enctype="text/plain" class="contact_form grid">
+              <div class="contact_inputs grid">
+                  <div class="contact_content">
+                    <label for="" class="contact_label">Name</label>
+                    <input type="text" class="contact_input">
+                  </div>
+                
+                <div class="contact_content">
+                  <label for="" class="contact_label">Email</label>
+                  <input type="email" class="contact_input">
+                </div>
+              
+              <div class="contact_content">
+                  <label for="" class="contact_label">Project</label>
+                  <input type="text" class="contact_input">
+                </div>
+              
+                <div class="contact_content">
+                  <label for="" class="contact_label">Message</label>
+                  <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                </div>
+            <div>
+              <a href="" class="button button_flex">
+                Send Message
+                <i class="bi bi-telegram button_icon"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+     <!--footer-->
+     <footer class="footer">
+       <div class="footer_bg">
+         <div class="footer_container container grid">
+           <div>
+             <h1 class="footer_title">Sandra</h1>
+             <span class="footer_subtitle">Software Developer</span>
+           </div>
+           <ul class="footer_links">
+            <li>
+              <a href="#achievements" class="footer_link">Achievements</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="footer_link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer_link">Contact</a>
+            </li>
+           </ul>
+           <div class="footer_socials">
+             <a href="https://github.com/sandramsc" target="blank" class="footer_social">
+              <i class="bi bi-github"></i>
+             </a>
+             <a href="https://linkedin.com/in/sandraashipala" target="blank" class="footer_social">
+              <i class="bi bi-linkedin"></i>
+            </a>
+           </div>
+         </div>
+
+         <p class="footer_copy">&#169; 2023 sandramsc. All rights reserved.</p>
+       </div>
+     </footer>
+     <!--scroll top-->
+     <a href="" class="scroll_up" id="scroll-up">
+      <i class="bi bi-arrow-up scroll_up_icon"></i>
+     </a>
+     <!--Swiper JS-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+     <!--jQuery-->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"></script>
+    <!--JavaScript-->
+    <script src="assets/js/main.js"></script>
+    <div class="credit">Designed by Sandra Ashipala &#10084;</div>
+  </body>
+</html>

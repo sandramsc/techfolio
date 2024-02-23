@@ -1,0 +1,8 @@
+/* Designed & coded by Sandra Ashipala 03.02.2022 <https://github.com/sandramsc> */
+.credit {
+  text-align: center;
+  color: var(--first-color);
+  padding-bottom: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

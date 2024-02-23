@@ -1,0 +1,416 @@
+/* By Sandra Ashipala <https://github.com/sandramsc> */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+a {
+    color: #262626;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/*Nav*/
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 20px 0;
+    font-size: 13px;
+}
+
+.main-nav .logo {
+    width: 180px;
+    height: 60px;
+}
+
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav ul li a {
+    padding-bottom: 2px;
+}
+
+.main-nav ul li a:hover {
+    border-bottom: 2px solid #262626;
+}
+
+.main-nav li {
+    padding: 0 10px;
+}
+
+.main-nav ul.main-menue {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.menue-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    z-index: 2;
+    display: none;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #fff;
+    font-size: 15px;
+}
+
+.btn-GTC {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #fff;
+    font-size: 15px;
+}
+
+.btn-GTC:hover {
+    opacity: 0.91;
+}
+
+.btn:hover {
+    opacity: 0.91;
+}
+
+.dark {
+    color: #fff;
+}
+
+.dark .btn{
+    background: #f4f4f4;
+    color:#333;
+}
+
+/*Showcase*/
+.showcase {
+    color: #fff;
+    width: 100%;
+    height: 700px;
+    background: url('/img/showcase.jpg') no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.showcase h2 {
+    margin-bottom: 11px;
+    display: inline-block;
+    border: 0;
+    top: 451px;
+    padding: 18px 15px;
+    background: hsl(241, 53%, 30%);
+    color: white;
+    position: absolute;
+    opacity: 0.85;
+    z-index: 5;
+    margin: 0px 474px 0px 474px;
+
+}
+.showcase p {
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 0;
+    width: 100%;
+    padding: 25px 20px;
+    max-inline-size: 1100px;
+    background: hsl(241, 53%, 30%);
+    color: #fff;
+    position: 0 20px 0 20px;
+    top: 540px;
+    right: 40px;
+    z-index: 50;
+    opacity: 0.85;  
+}
+
+.showcase .btn {
+    margin-top: 20px;
+}
+
+.showcase a:hover i {
+    margin-left: 10px;
+}
+
+/*Home cards*/
+.home-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 40px;
+}
+
+.home-cards img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.home-cards h3 {
+    margin-bottom: 5px;
+}
+
+.home-cards a {
+    display: inline-block;
+    padding-top: 10px;
+    color: #0067b8; 
+    text-transform: uppercase;
+}
+
+.home-cards .fa-apple {
+    color: #555555;
+}
+
+.home-cards .fa-spotify {
+    color: #1ED761;
+}
+
+.home-cards .fa-soundcloud {
+    color: #ff7700;
+}
+
+.home-cards a:hover i {
+    margin-left: 10px;
+}
+
+/*Books*/
+.books {
+    width: 100%;
+    height: 850px;
+    background: url('./img/books.jpeg') no-repeat center center/cover;
+    margin-bottom: 20px;
+}
+
+.books .content {
+    color: #f2f2f2;
+    width: 60%;
+    padding: 50px 0 0 30px;
+}
+
+.books a:hover i {
+    margin-left: 10px;
+}
+
+.books p, .carbon p {
+    margin: 10px 0 20px;
+}
+
+/*Carbon*/
+.carbon {
+    width: 100%;
+    height: 750px;
+    background: url('./img/carbon.jpg') no-repeat center center/cover;
+}
+
+.carbon .content {
+    color: #f2f2f2;
+    width: 55%;
+    padding: 70px 0 0 40px;
+}
+
+.carbon .btn a:hover i {
+    margin-left: 10px;
+
+}
+
+/*Connect*/
+.connect {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 30px 0 30px;
+}
+
+.connect *{
+    margin-right: 10px;
+}
+
+/*Links*/
+.links {
+    background: #f2f2f2;
+    color: #616161;
+    font-size: 12px;
+    padding: 35px 0;
+}
+
+.links-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.links li {
+    line-height: 2.8;
+}
+
+/*Footer*/
+.footer {
+    background: #f2f2f2;
+    color: #616161;
+    font-size: 12px;
+    padding: 20px 0;
+   
+}
+
+.footer-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer div {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer div i {
+    margin-right: 10px;
+}
+
+.footer ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer li {
+    margin-right: 79px;
+    margin-bottom: 20px;
+}
+
+@media( max-width: 767px) {
+    .menue-btn {
+        display: block;
+    }
+
+    .main-nav .logo {
+        width: 165px;
+        height: 50px;
+    }
+
+    .main-nav ul.right-menue {
+        margin-right: 50px;
+    }
+
+    .main-nav ul.main-menue {
+        display: block;
+    }
+
+    .main-nav ul.right-menue {
+        margin-right: 50px;
+    }
+
+    .menue-btn:hover {
+        opacity: 0.4;
+    }
+
+    .main-nav ul.main-menue {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #f2f2f2;
+        width: 30%;
+        height: 100%;
+        border-right: #ccc 1px solid;
+        border-bottom: #ccc solid 1px;
+        opacity: 0.9;
+        padding: 10px;
+         /*initially does not show at -500px*/
+         transform: translateX(-600px);
+         /*smooth in-out transition animation*/
+         transition: transform 0.56s ease-in-out;
+         z-index: 2;
+         font-size: 14px;
+    }
+
+    .home-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main-nav ul.main-menue.show {
+        transform: translate(-20px)
+    }
+
+    .books .content {
+        color: #f2f2f2;
+        width: 72%;
+        padding: 18px 0 0 50px;
+    }
+
+    .btn-GTC:hover {
+        opacity: 1;
+    }
+
+    .books {
+        width: 100%;
+        height: 500px;
+        background: url('./img/books.jpeg') no-repeat center center/cover;
+        opacity: 1;
+    }
+
+    .carbon .content {
+        color: #f2f2f2;
+        width: 65%;
+        padding: 100px 0 0 40px;
+    }
+
+    .showcase h2 {
+        
+        margin-bottom: 60px;
+        display: none;
+}
+
+@media(max-width: 500px) {
+    .home-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .links .links-inner {
+        grid-template-columns: 1fr;
+    }
+
+    .links .links-inner {
+        margin-bottom: 20px;
+    }
+}
+}
