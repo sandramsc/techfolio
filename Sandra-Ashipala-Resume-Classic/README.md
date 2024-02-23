@@ -4,10 +4,6 @@
     Sandra Ashipala Resume Classic
     <br />
     </h2>
-    
- ### Résumé/CV
-
-[View Résumé](https://bit.ly/sandraaresume)
 
 ### Designed with
 
