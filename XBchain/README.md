@@ -3,7 +3,7 @@
 
 ## Application Description
 
-a social networking service on which users post and interact with messages known as "tweets" powered by blockhain technology
+a social networking service on which users post and interact with messages known as "tweets" powered by blockchain technology
 
 ## Table of Contents
 
