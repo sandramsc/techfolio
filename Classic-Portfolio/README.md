@@ -1,7 +1,7 @@
 <!-- PROJECT TITLE -->
 
  <h2 2 align="center">
-    Sandra Ashipala Resume Classic
+    Classic (simple) portfolio website
     <br />
     </h2>
 
