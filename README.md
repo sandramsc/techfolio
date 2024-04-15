@@ -1,5 +1,5 @@
 <!-- PROJECT TITLE -->
-  <h1 align="center">Techfolio</h1>
+  <h1 align="center">techfolio</h1>
 
 ## Description
 
