@@ -1,0 +1,30 @@
+body{
+overflow-y: auto;
+overflow-x: hidden;
+margin: 0px 60px 60px 60px;
+padding: 0px 70px 0px 80px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+
+::-webkit-scrollbar-track {
+    background: rgb(243, 243, 245);
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(189, 187, 187);
+    border-radius: 12px;
+  }
+  
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(146, 146, 146);
+    border-radius: 12px;
+  }
+
+::-webkit-scrollbar-thumb:active {
+    background: rgb(110, 110, 110);
+    border-radius: 12px;
+  }
