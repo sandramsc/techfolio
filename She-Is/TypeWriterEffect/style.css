@@ -1,0 +1,78 @@
+/* Designed & coded by Sandra Ashipala <https://github.com/sandramsc> */
+@import url("https://fonts.googleapis.com/css2?family=Lancelot&family=Oswald&display=swap");
+body {
+  font-family: "Oswald", sans-serif;
+  height: 100vh;
+  color: #ff3d5c;
+  overflow: hidden;
+  background: #ccc url("showcase.jpg") no-repeat center center/cover;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0 15rem;
+}
+
+h1,
+h2 {
+  font-weight: 200;
+  margin: 0.3rem;
+}
+
+h1 {
+  font-size: 6.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: white;
+}
+
+/* Cursor */
+.txt-type > .txt {
+  border-right: 0.256rem solid #ff3d5c;
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 7.5rem;
+  }
+
+  body {
+    background: url ("showcase.jpg");
+  }
+}
+
+@media (min-width: 800px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 500px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    background: url ("showcase.jpg");
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+  body {
+    background: url ("showcase.jpg");
+  }
+}

@@ -1,0 +1,80 @@
+/* Designed & coded by Sandra Ashipala <https://github.com/sandramsc> */
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <script
+      src="https://kit.fontawesome.com/b1b7f18a51.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Site Bookmarker</title>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/4.5/examples/jumbotron/"
+    />
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+  </head>
+  <body onload="fetchBookmarks()">
+    <div class="container">
+      <div class="header clearfix"><font face="Comic sans MS" size=" 6">
+        <h3 class="text-muted">
+          Bookmark Your Sites <i class="far fa-star"></i></font>
+        </h3>
+      </div>
+
+      <div class="jumbotron" style="background-color:#f88195">
+        <h2><font face="Comic sans MS" size=" 10">Favourite Sites</font></h2>
+        <form id="myForm">
+          <div class="form-group" style="font-family:'Comic sans MS'" >
+            <label>Site Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="siteName"
+              placeholder="Website Name"
+            />
+          </div>
+
+          <div class="form-group" style="font-family:'Comic sans MS'">
+            <label>Site URL</label>
+            <input
+              type="text"
+              class="form-control"
+              id="siteURL"
+              placeholder="Website URL"
+            />
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="font-family:'Comic sans MS'">Submit</button>
+        </form>
+      </div>
+
+      <div class="row marketing">
+        <div class="col-lg-12">
+          <div id="bookmarksResults"></div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p style="font-size:20px"> Bookmarker &copy;2020</p>
+      </footer>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+[
+  {
+    "brand": "Shea Moisture",
+    "shampoo": "Raw Shea Butter Moisture Retention Shampoo",
+    "conditioner": "Coconut Custard Make It Last Wash n' Go Conditioner",
+    "gel": "SheaMoisture's Coconut & Hibiscus Curling Gel Soufflé"
+  },
+  {
+    "brand": "Carol’s Daughter",
+    "shampoo": "Black Vanilla Moisture & Shine Sulfate Free Shampoo",
+    "conditioner": "Monoi Repairing Conditioner",
+    "gel": "Pracaxi Nectar Style Control Gel"
+  },
+  {
+    "brand": "As I Am",
+    "shampoo": "Curl Clarity Shampoo",
+    "conditioner": "Leave-In Conditioner",
+    "gel": "Smoothing Gel"
+  },
+  {
+    "brand": "OGX",
+    "shampoo": "OGX Thick & Full Biotin & Collagen Shampoo",
+    "conditioner": "Renewing Argan Oil of Morocco Conditioner",
+    "gel": "Root Boosting Spray Mousse"
+  },
+  {
+    "brand": "Cantu Shea Butter",
+    "shampoo": "Shea Butter Cleansing Cream Shampoo",
+    "conditioner": "Shea Butter Hydrating Cream Conditioner",
+    "gel": "Moisturizing Twist & Lock Gel"
+  },
+  {
+    "brand": "Beautiful Textures",
+    "shampoo": "Beautiful Textures Tangle Taming Moisturizing Shampoo",
+    "conditioner": "Beautiful Textures Tangle Taming Leave-In Conditioner",
+    "gel": "Beautiful Textures Curl Control Defining Pudding"
+  },
+  {
+    "brand": "Mielle Organics",
+    "shampoo": "Mongongo Oil Exfoliating Shampoo",
+    "conditioner": "Babassu Oil & Mint Deep Conditioner",
+    "gel": "Honey & Ginger Styling Gel"
+  },
+  {
+    "brand": "Jane Carter Solutions",
+    "shampoo": "Moisture Nourishing Shampoo",
+    "conditioner": "Nutrient Replenishing Conditioner",
+    "gel": "Coiling All Curls™ Elongating Gel"
+  },
+  {
+    "brand": "Moroccanoil",
+    "shampoo": "Color Continue Shampoo",
+    "conditioner": "Regenerierender Conditioner",
+    "gel": " Styling Gel Strong"
+  },
+  {
+    "brand": "Giovanni",
+    "shampoo": "Tea Tree Triple Treat Shampoo",
+    "conditioner": "Smooth as Silk Conditioner",
+    "gel": "L.A. Natural Styling Gel"
+  },
+  {
+    "brand": "Aunt Jackie's",
+    "shampoo": "Grapeseed Collection Power Wash Intense Moisture Clarifying Shampoo",
+    "conditioner": "In Control Moisturizing & Softening Conditioner",
+    "gel": "Curls & Coils don't shrink Flaxseed Elongating Curling Gel"
+  },
+  {
+    "brand": "Mixed Chicks",
+    "shampoo": "Gentle Clarifying Shampoo",
+    "conditioner": "Leave-In Conditioner",
+    "gel": "Styling Gel"
+  },
+  {
+    "brand": "Miss Jessie's",
+    "shampoo": "Harm Me Knot Gentle Sulfate-Free Shampoo",
+    "conditioner": "Leave In Condish Hair Conditioner",
+    "gel": "Jelly Soft Curls"
+  }
+]

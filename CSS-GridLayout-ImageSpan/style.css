@@ -1,0 +1,85 @@
+/* Designed & coded by Sandra Ashipala <https://github.com/sandramsc> */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(116, 16, 66);
+  color: rgb(218, 206, 206);
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 300;
+  margin: 5px;
+}
+h2 span {
+  font-size: 30px;
+}
+
+p {
+  font-size: 22px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 7px;
+}
+
+.container > div {
+  cursor: pointer;
+  height: 195px;
+  background-size: cover;
+  /*spans entire image across entire grid instead*/
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  transition: all 0.589s ease-in;
+}
+
+.container > div:hover {
+  opacity: 0.6;
+  transform: scale(0.98);
+}
+
+.container > div:nth-of-type(3) {
+  /*takes first grid and spans it from one to three*/
+  grid-column: 3/5;
+}
+
+.container > div:nth-of-type(5) {
+  /*takes first grid and spans it from one to three*/
+  grid-column: 2/4;
+}
+
+.container > div:nth-of-type(7) {
+  /*takes first grid and spans it from one to three*/
+  grid-column: 1/3;
+}
+
+.container > div:nth-of-type(11) {
+  /*takes first grid and spans it from one to three*/
+  grid-column: 2/4;
+}
+
+/*for multiple images on grid*/
+.bg1 {
+  background: url("./img/sunset-1373171_1920.jpg");
+}
+
+.bg2 {
+  background: url("./img/tree-736885_1280.jpg");
+}
+
+.bg3 {
+  background: url("./img/samurai-2258604_1920.jpg");
+}

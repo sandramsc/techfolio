@@ -1,0 +1,1 @@
+This chat app is built with php, mysql, javascript and ajax.

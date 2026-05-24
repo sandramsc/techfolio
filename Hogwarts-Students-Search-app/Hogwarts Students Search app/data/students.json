@@ -1,0 +1,506 @@
+[
+  {
+    "name": "Dumbledore, Albus",
+    "gender": "Male",
+    "house": "Gryffindor",
+    "colors": "Scarlet and Gold",
+    "location": "Gryffindor Tower, entrance on the seventh floor."
+  },
+  {
+    "name": "McGonagall, Minerva",
+    "gender": "Female",
+    "house": "Gryffindor",
+    "colors": "Scarlet and Gold",
+    "location": "Gryffindor Tower, entrance on the seventh floor."
+  },
+  {
+    "name": "Hagrid, Rubeus",
+    "gender": "Male",
+    "house": "Gryffindor",
+    "colors": "Scarlet and Gold",
+    "location": "Gryffindor Tower, entrance on the seventh floor."
+  },
+  {
+    "name": "Black, Sirius",
+    "gender": "Male",
+    "house": "Gryffindor",
+    "colors": "Scarlet and Gold",
+    "location": "Gryffindor Tower, entrance on the seventh floor."
+  },
+  {
+    "name": "Pettigrew, Peter",
+    "gender": "Male",
+    "house": "Gryffindor",
+    "colors": "Scarlet and Gold",
+    "location": "Gryffindor Tower, entrance on the seventh floor."
+  },
+  {
+    "name": "Potter, James",
+    "gender": "Male",
+    "house": "Gryffindor",
+    "colors": "Scarlet and Gold",
+    "location": "Gryffindor Tower, entrance on the seventh floor."
+  },
+  {
+    "name": "Weasley, Charlie",
+    "gender": "Male",
+    "house": "Gryffindor",
+    "colors": "Scarlet and Gold",
+    "location": "Gryffindor Tower, entrance on the seventh floor."
+  },
+  {
+    "name": "Spinnet, Alicia",
+    "gender": "Female",
+    "house": "Gryffindor",
+    "colors": "Scarlet and Gold",
+    "location": "Gryffindor Tower, entrance on the seventh floor."
+  },
+  {
+    "name": "Weasley, Percy",
+    "gender": "Male",
+    "house": "Gryffindor",
+    "colors": "Scarlet and Gold",
+    "location": "Gryffindor Tower, entrance on the seventh floor."
+  },
+  {
+    "name": "Weasley, Fred",
+    "gender": "Male",
+    "house": "Gryffindor",
+    "colors": "Scarlet and Gold",
+    "location": "Gryffindor Tower, entrance on the seventh floor."
+  },
+  {
+    "name": "Weasley, George",
+    "gender": "Male",
+    "house": "Gryffindor",
+    "colors": "Scarlet and Gold",
+    "location": "Gryffindor Tower, entrance on the seventh floor."
+  },
+  {
+    "name": "Brown, Lavender",
+    "gender": "Female",
+    "house": "Gryffindor",
+    "colors": "Scarlet and Gold",
+    "location": "Gryffindor Tower, entrance on the seventh floor."
+  },
+  {
+    "name": "Finnigan, Seamus",
+    "gender": "Male",
+    "house": "Gryffindor",
+    "colors": "Scarlet and Gold",
+    "location": "Gryffindor Tower, entrance on the seventh floor."
+  },
+  {
+    "name": "Granger, Hermione",
+    "gender": "Female",
+    "house": "Gryffindor",
+    "colors": "Scarlet and Gold",
+    "location": "Gryffindor Tower, entrance on the seventh floor."
+  },
+  {
+    "name": "Longbottom, Neville",
+    "gender": "Male",
+    "house": "Gryffindor",
+    "colors": "Scarlet and Gold",
+    "location": "Gryffindor Tower, entrance on the seventh floor."
+  },
+  {
+    "name": "Patil, Parvati",
+    "gender": "Female",
+    "house": "Gryffindor",
+    "colors": "Scarlet and Gold",
+    "location": "Gryffindor Tower, entrance on the seventh floor."
+  },
+  {
+    "name": "Potter, Harry",
+    "gender": "Male",
+    "house": "Gryffindor",
+    "colors": "Scarlet and Gold",
+    "location": "Gryffindor Tower, entrance on the seventh floor."
+  },
+  {
+    "name": "Weasley, Ronald 'Ron'",
+    "gender": "Male",
+    "house": "Gryffindor",
+    "colors": "Scarlet and Gold",
+    "location": "Gryffindor Tower, entrance on the seventh floor."
+  },
+  {
+    "name": "Creevey, Colin",
+    "gender": "Male",
+    "house": "Gryffindor",
+    "colors": "Scarlet and Gold",
+    "location": "Gryffindor Tower, entrance on the seventh floor."
+  },
+  {
+    "name": "Weasley, Ginny",
+    "gender": "Female",
+    "house": "Gryffindor",
+    "colors": "Scarlet and Gold",
+    "location": "Gryffindor Tower, through the Fat Lady's portrait."
+  },
+  {
+    "name": "Ernie Macmillan",
+    "gender": "Female",
+    "house": "Hufflepuff",
+    "colors": "Yellow and Black",
+    "location": "Hufflepuff Basement, below ground level behind a stack of barrels near the kitchens."
+  },
+  {
+    "name": "Hannah Abbott",
+    "gender": "Female",
+    "house": "Hufflepuff",
+    "colors": "Yellow and Black",
+    "location": "Hufflepuff Basement, below ground level behind a stack of barrels near the kitchens."
+  },
+  {
+    "name": "Justin Finch-Fletchley",
+    "gender": "Male",
+    "house": "Hufflepuff",
+    "colors": "Yellow and Black",
+    "location": "Hufflepuff Basement, below ground level behind a stack of barrels near the kitchens."
+  },
+  {
+    "name": "Eglantine Puffett",
+    "gender": "Female",
+    "house": "Hufflepuff",
+    "colors": "Yellow and Black",
+    "location": "Hufflepuff Basement, below ground level behind a stack of barrels near the kitchens."
+  },
+  {
+    "name": "Helga Hufflepuff",
+    "gender": "Female",
+    "house": "Hufflepuff",
+    "colors": "Yellow and Black",
+    "location": "Hufflepuff Basement, below ground level behind a stack of barrels near the kitchens."
+  },
+  {
+    "name": "Hengist of Woodcroft",
+    "gender": "Male",
+    "house": "Hufflepuff",
+    "colors": "Yellow and Black",
+    "location": "Hufflepuff Basement, below ground level behind a stack of barrels near the kitchens."
+  },
+  {
+    "name": "Artemisia Lufkin",
+    "gender": "Female",
+    "house": "Hufflepuff",
+    "colors": "Yellow and Black",
+    "location": "Hufflepuff Basement, below ground level behind a stack of barrels near the kitchens."
+  },
+  {
+    "name": "Bridget Wenlock",
+    "gender": "Female",
+    "house": "Hufflepuff",
+    "colors": "Yellow and Black",
+    "location": "Hufflepuff Basement, below ground level behind a stack of barrels near the kitchens."
+  },
+  {
+    "name": "Stebbins",
+    "gender": "Male",
+    "house": "Hufflepuff",
+    "colors": "Yellow and Black",
+    "location": "Hufflepuff Basement, below ground level behind a stack of barrels near the kitchens."
+  },
+  {
+    "name": "Grogan Stump",
+    "gender": "Male",
+    "house": "Hufflepuff",
+    "colors": "Yellow and Black",
+    "location": "Hufflepuff Basement, below ground level behind a stack of barrels near the kitchens."
+  },
+  {
+    "name": "Cadwallader",
+    "gender": "Male",
+    "house": "Hufflepuff",
+    "colors": "Yellow and Black",
+    "location": "Hufflepuff Basement, below ground level behind a stack of barrels near the kitchens."
+  },
+  {
+    "name": "Newt Scamander",
+    "gender": "Male",
+    "house": "Hufflepuff",
+    "colors": "Yellow and Black",
+    "location": "Hufflepuff Basement, below ground level behind a stack of barrels near the kitchens."
+  },
+  {
+    "name": "Silvanus Kettleburn",
+    "gender": "Male",
+    "house": "Hufflepuff",
+    "colors": "Yellow and Black",
+    "location": "Hufflepuff Basement, below ground level behind a stack of barrels near the kitchens."
+  },
+  {
+    "name": "Pomona Sprout",
+    "gender": "Female",
+    "house": "Hufflepuff",
+    "colors": "Yellow and Black",
+    "location": "Hufflepuff Basement, below ground level behind a stack of barrels near the kitchens."
+  },
+  {
+    "name": "Nymphadora Tonks",
+    "gender": "Female",
+    "house": "Hufflepuff",
+    "colors": "Yellow and Black",
+    "location": "Hufflepuff Basement, below ground level behind a stack of barrels near the kitchens."
+  },
+  {
+    "name": "Cedric Diggory",
+    "gender": "Male",
+    "house": "Hufflepuff",
+    "colors": "Yellow and Black",
+    "location": "Hufflepuff Basement, below ground level behind a stack of barrels near the kitchens."
+  },
+  {
+    "name": "Ernie Macmillan",
+    "gender": "Male",
+    "house": "Hufflepuff",
+    "colors": "Yellow and Black",
+    "location": "Hufflepuff Basement, below ground level behind a stack of barrels near the kitchens."
+  },
+  {
+    "name": "Susan Bones",
+    "gender": "Female",
+    "house": "Hufflepuff",
+    "colors": "Yellow and Black",
+    "location": "Hufflepuff Basement, below ground level behind a stack of barrels near the kitchens."
+  },
+  {
+    "name": "Megan Jones",
+    "gender": "Female",
+    "house": "Hufflepuff",
+    "colors": "Yellow and Black",
+    "location": "Hufflepuff Basement, below ground level behind a stack of barrels near the kitchens."
+  },
+  {
+    "name": "Zacharias Smith",
+    "gender": "Male",
+    "house": "Hufflepuff",
+    "colors": "Yellow and Black",
+    "location": "Hufflepuff Basement, below ground level behind a stack of barrels near the kitchens."
+  },
+  {
+    "name": "Helena Ravenclaw, The Grey Lady",
+    "gender": "Female",
+    "house": "Ravenclaw",
+    "colors": "Blue and Bronze",
+    "location": "..located on the west side of Hogwarts at the top of a spiral staircase."
+  },
+  {
+    "name": "Flitwick, Filius",
+    "gender": "Male",
+    "house": "Ravenclaw",
+    "colors": "Blue and Bronze",
+    "location": "..located on the west side of Hogwarts at the top of a spiral staircase."
+  },
+  {
+    "name": "Myrtle Elizabeth Warren (Moaning Myrtle)",
+    "gender": "Female",
+    "house": "Ravenclaw",
+    "colors": "Blue and Bronze",
+    "location": "..located on the west side of Hogwarts at the top of a spiral staircase."
+  },
+  {
+    "name": "Laverne de Montmorency",
+    "gender": "Female",
+    "house": "Ravenclaw",
+    "colors": "Blue and Bronze",
+    "location": "..located on the west side of Hogwarts at the top of a spiral staircase."
+  },
+  {
+    "name": "Patil, Padma",
+    "gender": "Female",
+    "house": "Ravenclaw",
+    "colors": "Blue and Bronze",
+    "location": "..located on the west side of Hogwarts at the top of a spiral staircase."
+  },
+  {
+    "name": "McDougal, Morag",
+    "gender": "Female",
+    "house": "Ravenclaw",
+    "colors": "Blue and Bronze",
+    "location": "..located on the west side of Hogwarts at the top of a spiral staircase."
+  },
+  {
+    "name": "Li, Su",
+    "gender": "Female",
+    "house": "Ravenclaw",
+    "colors": "Blue and Bronze",
+    "location": "..located on the west side of Hogwarts at the top of a spiral staircase."
+  },
+  {
+    "name": "Corner, Michael",
+    "gender": "Male",
+    "house": "Ravenclaw",
+    "colors": "Blue and Bronze",
+    "location": "..located on the west side of Hogwarts at the top of a spiral staircase."
+  },
+  {
+    "name": "Brocklehurst, Mandy",
+    "gender": "Female",
+    "house": "Ravenclaw",
+    "colors": "Blue and Bronze",
+    "location": "..located on the west side of Hogwarts at the top of a spiral staircase."
+  },
+  {
+    "name": "Boot, Terry",
+    "gender": "Male",
+    "house": "Ravenclaw",
+    "colors": "Blue and Bronze",
+    "location": "..located on the west side of Hogwarts at the top of a spiral staircase."
+  },
+  {
+    "name": "Chang, Cho",
+    "gender": "Female",
+    "house": "Ravenclaw",
+    "colors": "Blue and Bronze",
+    "location": "..located on the west side of Hogwarts at the top of a spiral staircase."
+  },
+  {
+    "name": "Carmichael, Eddie",
+    "gender": "Male",
+    "house": "Ravenclaw",
+    "colors": "Blue and Bronze",
+    "location": "..located on the west side of Hogwarts at the top of a spiral staircase."
+  },
+  {
+    "name": "Clearwater, Penelope",
+    "gender": "Female",
+    "house": "Ravenclaw",
+    "colors": "Blue and Bronze",
+    "location": "..located on the west side of Hogwarts at the top of a spiral staircase."
+  },
+  {
+    "name": "Gilderoy Lockhart",
+    "gender": "Male",
+    "house": "Ravenclaw",
+    "colors": "Blue and Bronze",
+    "location": "..located on the west side of Hogwarts at the top of a spiral staircase."
+  },
+  {
+    "name": "Uric the Oddball",
+    "gender": "Male",
+    "house": "Ravenclaw",
+    "colors": "Blue and Bronze",
+    "location": "..located on the west side of Hogwarts at the top of a spiral staircase."
+  },
+  {
+    "name": "Lorcan McLaird",
+    "gender": "Male",
+    "house": "Ravenclaw",
+    "colors": "Blue and Bronze",
+    "location": "..located on the west side of Hogwarts at the top of a spiral staircase."
+  },
+  {
+    "name": "Millicent Bagnold",
+    "gender": "Female",
+    "house": "Ravenclaw",
+    "colors": "Blue and Bronze",
+    "location": "..located on the west side of Hogwarts at the top of a spiral staircase."
+  },
+  {
+    "name": "Ignatia Wildsmith",
+    "gender": "Female",
+    "house": "Ravenclaw",
+    "colors": "Blue and Bronze",
+    "location": "..located on the west side of Hogwarts at the top of a spiral staircase."
+  },
+  {
+    "name": "Lestrange, Rodolphus",
+    "gender": "Male",
+    "house": "Slytherin",
+    "colors": " Green and Silver",
+    "location": "..is located in the dungeons, behind an apparently blank stretch of wall."
+  },
+  {
+    "name": "Lestrange, Rabastan",
+    "gender": "Male",
+    "house": "Slytherin",
+    "colors": " Green and Silver",
+    "location": "..is located in the dungeons, behind an apparently blank stretch of wall."
+  },
+  {
+    "name": "Black, Andromeda",
+    "gender": "Female",
+    "house": "Slytherin",
+    "colors": " Green and Silver",
+    "location": "..is located in the dungeons, behind an apparently blank stretch of wall."
+  },
+  {
+    "name": "Malfoy, Lucius",
+    "gender": "Male",
+    "house": "Slytherin",
+    "colors": " Green and Silver",
+    "location": "..is located in the dungeons, behind an apparently blank stretch of wall."
+  },
+  {
+    "name": "Snape, Severus",
+    "gender": "Male",
+    "house": "Slytherin",
+    "colors": " Green and Silver",
+    "location": "..is located in the dungeons, behind an apparently blank stretch of wall."
+  },
+  {
+    "name": "Black, Regulus",
+    "gender": "Male",
+    "house": "Slytherin",
+    "colors": " Green and Silver",
+    "location": "..is located in the dungeons, behind an apparently blank stretch of wall."
+  },
+  {
+    "name": "Higgs, Terence",
+    "gender": "Male",
+    "house": "Slytherin",
+    "colors": " Green and Silver",
+    "location": "..is located in the dungeons, behind an apparently blank stretch of wall."
+  },
+  {
+    "name": "Flint, Marcus",
+    "gender": "Male",
+    "house": "Slytherin",
+    "colors": " Green and Silver",
+    "location": "..is located in the dungeons, behind an apparently blank stretch of wall."
+  },
+  {
+    "name": "Pucey, Adrian",
+    "gender": "Male",
+    "house": "Slytherin",
+    "colors": " Green and Silver",
+    "location": "..is located in the dungeons, behind an apparently blank stretch of wall."
+  },
+  {
+    "name": "Crabbe, Vincent",
+    "gender": "Male",
+    "house": "Slytherin",
+    "colors": " Green and Silver",
+    "location": "..is located in the dungeons, behind an apparently blank stretch of wall."
+  },
+  {
+    "name": "Malfoy, Draco",
+    "gender": "Male",
+    "house": "Slytherin",
+    "colors": " Green and Silver",
+    "location": "..is located in the dungeons, behind an apparently blank stretch of wall."
+  },
+  {
+    "name": "Albus Severus Potter",
+    "gender": "Male",
+    "house": "Slytherin",
+    "colors": " Green and Silver",
+    "location": "..is located in the dungeons, behind an apparently blank stretch of wall."
+  },
+  {
+    "name": "Zabini, Blaise",
+    "gender": "Male",
+    "house": "Slytherin",
+    "colors": " Green and Silver",
+    "location": "..is located in the dungeons, behind an apparently blank stretch of wall."
+  },
+  {
+    "name": "Parkinson, Pansy",
+    "gender": "Female",
+    "house": "Slytherin",
+    "colors": " Green and Silver",
+    "location": "..is located in the dungeons, behind an apparently blank stretch of wall."
+  }
+]

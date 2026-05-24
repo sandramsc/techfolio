@@ -1,0 +1,255 @@
+/* Designed & coded by Sandra Ashipala <https://github.com/sandramsc> */
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Architects Daughter", sans-serif;
+  font-weight: 300;
+  background: #032d3c;
+  color: #dedede;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+#left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#right {
+  flex: 2;
+}
+
+/*Sign In*/
+#signin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding-bottom: 1rem;
+}
+
+#sign form {
+  width: 80%;
+  padding-bottom: 3rem;
+}
+
+#signin .logo {
+  margin-bottom: 6vh;
+}
+
+#signin .logo img {
+  width: 210px;
+}
+
+#signin label {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+
+#signin .text-input {
+  margin-bottom: 1.3rem;
+  width: 100%;
+  border-radius: 2px;
+  background: #032d3c;
+
+  color: #dedede;
+  border: 1px solid #555;
+  padding: 0.2rem 1rem;
+  line-height: 1.3rem;
+}
+
+#signin .primary-btn {
+  width: 100%;
+}
+
+#signin .secondary-btn,
+.or,
+.links {
+  width: 60%;
+}
+
+#signin .links a {
+  display: block;
+  color: #dedede;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+#signin .credentials {
+  color: #dedede;
+  padding-top: 0.5rem;
+  text-decoration: none;
+}
+
+#signin .or {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.2rem;
+  align-items: center;
+}
+
+#signin .or .bar {
+  flex: auto;
+  border: none;
+  height: 1px;
+  background: #dedede;
+}
+
+#signin .or span {
+  color: #dedede;
+  padding: 0 0.8rem;
+}
+
+/*Showcase*/
+#showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("img/background.jpg") no-repeat center center/cover;
+  height: 100vh;
+  text-align: center;
+}
+
+#showcase .showcase-text {
+  font-size: 3rem;
+  width: 100%;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+/*Footer*/
+#main-footer {
+  color: #dedede;
+  text-align: center;
+  font-size: 0.8rem;
+  max-width: 90%;
+  padding-top: 1rem;
+}
+
+#main-footer a {
+  color: #27aa80;
+  text-decoration: underline;
+}
+
+/*Button*/
+.primary-btn {
+  padding: 0.8rem 1rem;
+  height: 2.7rem;
+  display: block;
+  border: 0;
+  border-radius: 2px;
+  font-weight: 500;
+  background: #27aa80;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.8s;
+}
+
+.primary-btn:hover {
+  background-color: #28c3d4;
+}
+
+.secondary-btn {
+  padding: 0.8rem 1rem;
+  height: 2.7rem;
+  display: block;
+  border: 1px solid #f4f4f4;
+  border-radius: 2px;
+  font-weight: 500;
+  background: none;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.8s;
+}
+
+.secondary-btn:hover {
+  border-color: #27aa80;
+  color: #28c3d4;
+}
+
+.tertiary-btn {
+  padding: 0.8rem 1rem;
+  height: 2.7rem;
+  display: block;
+  border: 1px solid #f7f2e7;
+  border-radius: 2px;
+  font-weight: 500;
+  background: #f7f2e7;
+  color: #27aa80;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.8s;
+}
+
+.tertiary-btn:hover {
+  background: #f7f2e7;
+  color: #28c3d4;
+}
+
+#showcase .tertiary-btn {
+  width: 60%;
+  margin: auto;
+}
+
+@media (max-width: 1200px) {
+  #left {
+    flex: 4;
+  }
+
+  #right {
+    flex: 6;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow: auto;
+  }
+
+  #right {
+    display: none;
+  }
+
+  #left {
+    justify-content: start;
+    margin-top: 4vh;
+  }
+
+  #signin .logo {
+    margin-bottom: 2vh;
+  }
+
+  #main-footer {
+    padding-top: 1rem;
+  }
+}

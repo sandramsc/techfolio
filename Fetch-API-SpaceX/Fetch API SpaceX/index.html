@@ -1,0 +1,114 @@
+/* Designed & coded by Sandra Ashipala <https://github.com/sandramsc> */
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Fetch API SpaceX</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="display-4 mb-4">Fetch API SpaceX</h1>
+        <div class="d-flex">
+            <button class="btn btn-primary mr-4" id="getText">GetText</button>
+            <button class="btn btn-success mr-4" id="getCompanyInfo">Get JSON</button>
+            <button class="btn btn-warning mr-4" id="getRockets">Get API DATA</button>
+        </div>
+
+        <hr>
+        <div id="output"></div>
+
+        <form id="addRocket">
+            <div>
+                <input type="text" id="title" class="form-control" placeholder="Title">
+            </div>
+
+            <div class="form-group">
+                <textarea id="body" class="form-control" placeholder="Body"></textarea>
+            </div>
+            <input type="submit" class="btn btn-secondary" value="Submit">
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('getText').addEventListener('click', getText);
+        document.getElementById('getCompanyInfo').addEventListener('click', getCompanyInfo);
+        document.getElementById('getRockets').addEventListener('click', getRockets);
+        document.getElementById('addRocket').addEventListener('submit', addRocket);
+
+
+        /*call a function called get Text*/
+        function getText() {
+            fetch('sample.txt')
+                .then((res) => res.text())
+                .then((data) => {
+                    document.getElementById('output').innerHTML = data;
+                })
+                .catch((err) => console.log(err))
+        }
+
+        /*calls a function called getCompanyInfo*/
+        function getCompanyInfo() {
+            fetch('companyinfo.json')
+                .then((res) => res.json())
+                .then((data) => {
+                    let output = '<h2 class="mb-4">Company Info</h2>';
+                    data.forEach(function (company) {
+                        output += `
+                    <ul class="list-group mb-3">
+                        <li class="list-group-item">Name: ${company.name}</li>
+                        <li class="list-group-item">Founder: ${company.founder}</li>
+                        <li class="list-group-item">Founded: ${company.founded}</li>
+                    </ul>
+                        `;
+                    });
+                    document.getElementById('output').innerHTML = output;
+                })
+        }
+
+        /*calls a function called getRockets*/
+        function getRockets() {
+            fetch('https://api.spacexdata.com/v4/rockets')
+                .then((res) => res.json())
+                .then((data) => {
+                    let output = '<h2 class="mb-4">Rockets</h2>';
+                    data.forEach(function (rocket) {
+                        output += `
+                    <div class="card card-body mb-3">
+                        <p>${rocket.name}</p>
+                        <h3>${rocket.id}</h3>
+                        </div>
+                    `;
+                    });
+                    document.getElementById('output').innerHTML = output;
+                })
+        }
+
+        /*event parameter for forms*/
+        function addRocket(e) {
+            e.preventDefault();
+
+            let name = document.getElementById('name').value;
+            let id = document.getElementById('id').value;
+
+            fetch('https://api.spacexdata.com/v4/rockets', {
+                /* standard POST request --> to create a new rocket entry*/
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json, text/plain, */*',
+                    'Content-type': 'application/json'
+                },
+                id: JSON.stringify({ name: name, id: id })
+            })
+                .then((res) => res.json())
+                /*the response given is the actual rocket that is added*/
+                .then((data) => console.log(data))
+        }
+    </script>
+</body>
+
+</html>

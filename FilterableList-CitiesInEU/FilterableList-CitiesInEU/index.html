@@ -1,0 +1,172 @@
+/* Designed & coded by Sandra Ashipala <https://github.com/sandramsc> */
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css">
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/ae2033e56b.js" crossorigin="anonymous"></script>    
+    <title>Cities in EU</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="center-align"><i class="fas fa-globe-europe"></i> Cities in EU</h1>
+<input type="text" id="filterInput" placeholder="Type in city...">
+<ul id="cities" class="collection with-header">
+
+<li class="main-header"><h5>A</h5></li>
+
+<li class="main-item"><a href="#">Albania-Tirana</a></li>
+<li class="main-item"><a href="#">Andorra-Andorra la Vella</a></li>
+<li class="main-item"><a href="#">Armenia-Yerevan</a></li>
+<li class="main-item"><a href="#">Azerbaijan-Baku</a></li>
+
+<li class="main-header"><h5>B</h5></li>
+
+<li class="main-item"><a href="#">Belarus-Minsk</a></li>
+<li class="main-item"><a href="#">Belguim-Brussels</a></li>
+<li class="main-item"><a href="#">Bosnia and Herzegovina-Sarajevo</a></li>
+<li class="main-item"><a href="#">Bulgaria-Sofia</a></li>
+
+<li class="main-header"><h5>C</h5></li>
+
+<li class="main-item"><a href="#">Croatia-Zagreb</a></li>
+<li class="main-item"><a href="#">Cypres-Nicosia</a></li>
+<li class="main-item"><a href="#">Czechia-Prague</a></li>
+
+<li class="main-header"><h5>D</h5></li>
+
+<li class="main-item"><a href="#">Denmark-Copenhagen</a></li>
+
+<li class="main-header"><h5>E</h5></li>
+
+<li class="main-item"><a href="#">Estonia-Tallinn</a></li>
+
+<li class="main-header"><h5>F</h5></li>
+
+<li class="main-item"><a href="#">Finland-Helsinki</a></li>
+<li class="main-item"><a href="#">France-Paris</a></li>
+
+<li class="main-header"><h5>G</h5></li>
+
+<li class="main-item"><a href="#">Georgia-Tbilisi</a></li>
+<li class="main-item"><a href="#">Germany-Berlin</a></li>
+<li class="main-item"><a href="#">Greece-Athens</a></li>
+
+<li class="main-header"><h5>H</h5></li>
+
+<li class="main-item"><a href="#">Hungary-Budapest</a></li>
+
+<li class="main-header"><h5>I</h5></li>
+
+<li class="main-item"><a href="#">Iceland-Reykjavik</a></li>
+<li class="main-item"><a href="#">Ireland-Dublin</a></li>
+<li class="main-item"><a href="#">Italy-Rome</a></li>
+
+<li class="main-header"><h5>K</h5></li>
+
+<li class="main-item"><a href="#">Kazakhstan-Nur Sultan</a></li>
+<li class="main-item"><a href="#">Kosovo-Pristina</a></li>
+
+<li class="main-header"><h5>L</h5></li>
+
+<li class="main-item"><a href="#">Latvia-Riga</a></li>
+<li class="main-item"><a href="#">Liechtenstein-Vaduz</a></li>
+<li class="main-item"><a href="#">Lithuania-Vilnius</a></li>
+<li class="main-item"><a href="#">Luxembourg-Luxembourg(city)</a></li>
+
+<li class="main-header"><h5>M</h5></li>
+
+<li class="main-item"><a href="#">Malta-Valletta</a></li>
+<li class="main-item"><a href="#">Moldova-Chisinau</a></li>
+<li class="main-item"><a href="#">Monaco-Monaco</a></li>
+<li class="main-item"><a href="#">Montenegro-Podgorica</a></li>
+
+<li class="main-header"><h5>N</h5></li>
+
+<li class="main-item"><a href="#">Netherlands-Amsterdam</a></li>
+<li class="main-item"><a href="#">North Macedodia-Skopje</a></li>
+<li class="main-item"><a href="#">Norway-Oslo</a></li>
+
+<li class="main-header"><h5>P</h5></li>
+
+<li class="main-item"><a href="#">Poland-Warsaw</a></li>
+<li class="main-item"><a href="#">Portugal-Lisbon</a></li>
+
+<li class="main-header"><h5>R</h5></li>
+
+<li class="main-item"><a href="#">Romania-Bucharest</a></li>
+<li class="main-item"><a href="#">Russia-Moscow</a></li>
+
+<li class="main-header"><h5>S</h5></li>
+
+<li class="main-item"><a href="#">San Marino-San Marino</a></li>
+<li class="main-item"><a href="#">Serbia-Belgrade</a></li>
+<li class="main-item"><a href="#">Slovakia-Bratislava</a></li>
+<li class="main-item"><a href="#">Spain-Madrid</a></li>
+<li class="main-item"><a href="#">Sweden-Stockholm</a></li>
+<li class="main-item"><a href="#">Switzerland-Bratislava</a></li>
+<li class="main-item"><a href="#">Slovenia-Bern</a></li>
+
+<li class="main-header"><h5>T</h5></li>
+
+<li class="main-item"><a href="#">Turkey-Ankara</a></li>
+
+<li class="main-header"><h5>U</h5></li>
+
+<li class="main-item"><a href="#">Ukrain-Kyiv</a></li>
+<li class="main-item"><a href="#">United Kingdom-London</a></li>
+
+<li class="main-header"><h5>V</h5></li>
+
+<li class="main-item"><a href="#">Vatican City (Holy See)-Vatican City</a></li>
+
+</ul>
+
+<table class="table table-striped mt-5">
+    <thead>
+        <tr>
+            <th>Country</th>
+            <th>City</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody id="city-list"></tbody>
+</table>
+<form id="city-form">
+    <input type="submit" value="Add EU location" class="btn btn-primary btn-block">
+</form>
+</div>
+   <script>
+       // Get input element
+       let filterInput = document.getElementById('filterInput');
+
+       // Add event listener
+       filterInput.addEventListener('keyup', filterCities);
+       
+       function filterCities(){
+           // Get value of input
+           let filterValue = document.getElementById('filterInput').value.toUpperCase();
+
+           // Get names ul
+           let ul = document.getElementById('cities');
+
+           //Get lis from ul
+           let li = ul.querySelectorAll('li.main-item');
+
+           //Loop through main-item lis
+           for (let i = 0;i < li.length;i++){
+           let a = li[i].getElementsByTagName('a')[0];
+           //if matched
+           if(a.innerHTML.toUpperCase().indexOf(filterValue) > -1){
+            li[i].style.display = '';
+                   } else {
+            li[i].style.display = 'none';   
+           }
+       }
+    }
+   </script>
+    </body>
+</html>

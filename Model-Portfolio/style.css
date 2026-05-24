@@ -1,0 +1,117 @@
+/* Designed & coded by Sandra Ashipala <https://github.com/sandramsc> */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+/* View min-width @ 1077.6 x @ min-height 2136 */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background: #333;
+  color: #fff;
+  line-height: 1.9;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.slide.current {
+  opacity: 1;
+}
+
+p {
+  font-size: 2.9rem;
+}
+
+h1 {
+  font-size: 3.6rem;
+}
+
+.slide .content {
+  position: absolute;
+  bottom: 70px;
+  left: -600px;
+  opacity: 0;
+  width: 795px;
+  background-color: #ffe0f7;
+  color: #010a43;
+  padding: 35px;
+}
+
+.slide .content h1 {
+  margin-bottom: 10px;
+}
+
+.slide.current .content {
+  opacity: 1;
+  transform: translateX(600px);
+  transition: all 0.7s ease-in-out 0.3s;
+}
+
+.buttons button#next {
+  position: absolute;
+  top: 5%;
+  right: 15px;
+}
+
+.buttons button#prev {
+  position: absolute;
+  top: 5%;
+  left: 15px;
+}
+
+.buttons button {
+  border: 5.8px solid #d54062;
+  background-color: transparent;
+  color: #d8ded2;
+  cursor: pointer;
+  padding: 26px 30px;
+  border-radius: 80%;
+  outline: none;
+}
+
+.buttons button:hover {
+  background-color: #fbe2e5;
+  color: #056676;
+}
+
+@media (max-width: 500px) {
+  .slide .content {
+    bottom: -100px;
+    left: 0;
+    width: 100%;
+  }
+
+  .slide.current .content {
+    transform: translateY(-200px);
+  }
+}
+/* Backgorund Images */
+
+.slide:first-child {
+  background: url("img/image1.jpg") no-repeat center top/cover;
+}
+.slide:nth-child(2) {
+  background: url("img/image2.jpg") no-repeat center top/cover;
+}
+.slide:nth-child(3) {
+  background: url("img/image3.jpg") no-repeat center top/cover;
+}

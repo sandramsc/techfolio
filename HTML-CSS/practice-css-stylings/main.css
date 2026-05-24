@@ -1,0 +1,44 @@
+
+
+h1 {
+    font-size: 10.5rem;
+    font-family: "Jersey 10 Charted", sans-serif;
+    padding: 0px;
+    margin: 0 180px;
+    font-weight: 700;
+    text-decoration: none;
+    color: pink;
+    background-color: none;
+}
+
+h2 {
+    font-size: 34px;
+    font-family: "Poppins", sans-serif;
+    padding: 20px 450px;
+    margin: 0 0 0 45px;
+    font-weight: 600;
+    color: green;
+    background-color: none;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    padding:20px 20px 20px 20px;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.logo {
+    background-size: cover;
+    background-image: url(https://appacademy.github.io/styleguide/assets/logo/logo-emblem-black-1000.png);
+    background-color: none;
+justify-content: center;
+align-items: center;
+margin: 20px 480px 40px;
+    height: 500px;
+    width: 500px;
+}
